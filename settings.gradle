@@ -1,1 +1,1 @@
-include ':app', ':recycleviewtest', ':httptest'
+include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview'

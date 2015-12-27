@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/festival_sms.iml" filepath="$PROJECT_DIR$/festival_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/httptest/httptest.iml" filepath="$PROJECT_DIR$/httptest/httptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myqqview/myqqview.iml" filepath="$PROJECT_DIR$/myqqview/myqqview.iml" />
       <module fileurl="file://$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" filepath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
     </modules>
   </component>
