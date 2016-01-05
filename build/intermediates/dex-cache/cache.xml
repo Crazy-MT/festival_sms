@@ -2,32 +2,39 @@
 <items version="2" >
 
     <item
-        jar="F:\Android\festival_sms\imageloader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="F:\myWork\festival_sms\percentdemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="F:\Android\festival_sms\imageloader\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-dc0073309f0dc80028d7c99f01bb88bd0880483f.jar" />
+        <dex dex="F:\myWork\festival_sms\percentdemo\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-c492113e5807614d8f23d36a1bbdb6fb8dc27777.jar" />
     </item>
     <item
-        jar="F:\Android\festival_sms\imageloader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jar="C:\Users\infolife\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="F:\Android\festival_sms\imageloader\build\intermediates\pre-dexed\debug\classes-925cebead5fbfe1a7130814d8410ef65536393ae.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="F:\Android\festival_sms\imageloader\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-fc31b1308c01369429c42b4ee0e871ec9f4364ee.jar" />
+        <dex dex="F:\myWork\festival_sms\percentdemo\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-594f4895030b6fc0b86002abb528da703e16c7fa.jar" />
     </item>
     <item
-        jar="F:\Android\festival_sms\imageloader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jar="F:\myWork\festival_sms\percentdemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="F:\myWork\festival_sms\percentdemo\build\intermediates\pre-dexed\debug\classes-8e44425f78283c02b696c975a0361d6242a52db7.jar" />
+    </item>
+    <item
+        jar="F:\myWork\festival_sms\percentdemo\build\intermediates\exploded-aar\com.android.support\percent\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef469dcc3073ecc4706ba216479f2111e05834f">
+        <dex dex="F:\myWork\festival_sms\percentdemo\build\intermediates\pre-dexed\debug\classes-a825c35e8113f4a7ac71e42690f67bd7ad881781.jar" />
+    </item>
+    <item
+        jar="F:\myWork\festival_sms\percentdemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="F:\Android\festival_sms\imageloader\build\intermediates\pre-dexed\debug\classes-a85e2db55ca57f5afcb49b86b708cc760c7c5655.jar" />
+        <dex dex="F:\myWork\festival_sms\percentdemo\build\intermediates\pre-dexed\debug\classes-89859f1ae16656d217effa68c34b1e21f53174e8.jar" />
     </item>
 
 </items>
