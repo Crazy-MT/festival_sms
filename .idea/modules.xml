@@ -3,14 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/beatplane/beatplane.iml" filepath="$PROJECT_DIR$/beatplane/beatplane.iml" />
       <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/exitactivity/exitactivity.iml" filepath="$PROJECT_DIR$/exitactivity/exitactivity.iml" />
+>>>>>>> 5b48343b1b8fabe469265ad09eb76d7ca0129aa2
       <module fileurl="file://$PROJECT_DIR$/festival_sms.iml" filepath="$PROJECT_DIR$/festival_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/httptest/httptest.iml" filepath="$PROJECT_DIR$/httptest/httptest.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewitemslidedeletebtnshow/listviewitemslidedeletebtnshow.iml" filepath="$PROJECT_DIR$/listviewitemslidedeletebtnshow/listviewitemslidedeletebtnshow.iml" />
       <module fileurl="file://$PROJECT_DIR$/myqqview/myqqview.iml" filepath="$PROJECT_DIR$/myqqview/myqqview.iml" />
       <module fileurl="file://$PROJECT_DIR$/percentdemo/percentdemo.iml" filepath="$PROJECT_DIR$/percentdemo/percentdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" filepath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
     </modules>
   </component>
 </project>

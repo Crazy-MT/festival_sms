@@ -6,8 +6,32 @@
       <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
+<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
+=======
+<<<<<<< HEAD
+      <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+=======
+>>>>>>> 5b48343b1b8fabe469265ad09eb76d7ca0129aa2
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/imageloader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/res" />
@@ -21,8 +45,12 @@
       <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
       <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
       <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
       <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/" />
+=======
+>>>>>>> 76802446cd5ddc0b7cdb88bf76aa33e1bd6aa167
+>>>>>>> 5b48343b1b8fabe469265ad09eb76d7ca0129aa2
     </SOURCES>
   </library>
 </component>

@@ -9,26 +9,38 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/beatplane" />
             <option value="$PROJECT_DIR$/camera" />
+=======
+            <option value="$PROJECT_DIR$/exitactivity" />
+>>>>>>> 5b48343b1b8fabe469265ad09eb76d7ca0129aa2
             <option value="$PROJECT_DIR$/httptest" />
             <option value="$PROJECT_DIR$/imageloader" />
+            <option value="$PROJECT_DIR$/listviewitemslidedeletebtnshow" />
             <option value="$PROJECT_DIR$/myqqview" />
             <option value="$PROJECT_DIR$/percentdemo" />
             <option value="$PROJECT_DIR$/recycleviewtest" />
+            <option value="$PROJECT_DIR$/widget" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/beatplane" />
             <option value="$PROJECT_DIR$/camera" />
+=======
+            <option value="$PROJECT_DIR$/exitactivity" />
+>>>>>>> 5b48343b1b8fabe469265ad09eb76d7ca0129aa2
             <option value="$PROJECT_DIR$/httptest" />
             <option value="$PROJECT_DIR$/imageloader" />
+            <option value="$PROJECT_DIR$/listviewitemslidedeletebtnshow" />
             <option value="$PROJECT_DIR$/myqqview" />
             <option value="$PROJECT_DIR$/percentdemo" />
             <option value="$PROJECT_DIR$/recycleviewtest" />
+            <option value="$PROJECT_DIR$/widget" />
           </set>
         </option>
       </GradleProjectSettings>
