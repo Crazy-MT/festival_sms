@@ -1,1 +1,1 @@
-include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo'
+include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane'
