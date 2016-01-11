@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane'
-=======
-include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':exitactivity'
+include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane', ':otto_demo', ':otto_demo'
+//include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':exitactivity'
 include ':listviewitemslidedeletebtnshow'
 include ':widget'
->>>>>>> 5b48343b1b8fabe469265ad09eb76d7ca0129aa2
