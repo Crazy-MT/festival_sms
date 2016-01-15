@@ -6,19 +6,19 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-/*Ë«×Óµ¯µÄÀà*/
+/*Ë«ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½*/
 public class Bullet2 extends GameObject{
-	private Bitmap bullet; 		 // ×Óµ¯µÄÍ¼Æ¬
+	private Bitmap bullet; 		 // ï¿½Óµï¿½ï¿½ï¿½Í¼Æ¬
 	private float object_x2;	
 	private float object_y2;
 	private boolean isAlive2;	
-	private boolean attack;		//±ê¼Ç×Óµ¯ÊÇ·ñ»÷ÖÐ
+	private boolean attack;		//ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½
 	private boolean attack2;
 	Bullet2(Resources resources) {
 		super(resources);
 		initBitmap();
 	}
-	//³õÊ¼»¯Êý¾Ý
+	//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void initial(int arg0,float arg1,float arg2,int arg3) {
 		isAlive = true;
@@ -31,7 +31,7 @@ public class Bullet2 extends GameObject{
 		object_x2 = arg1 + object_width;
 		object_y2 = object_y;
 	}
-	//³õÊ¼»¯Í¼Æ¬
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
 	@Override
 	public void initBitmap() {
 		// TODO Auto-generated method stub
@@ -39,7 +39,7 @@ public class Bullet2 extends GameObject{
 		object_width = bullet.getWidth();
 		object_height = bullet.getHeight();
 	}
-	// »æÍ¼º¯Êý
+	// ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void drawSelf(Canvas canvas) {
 		// TODO Auto-generated method stub
@@ -63,7 +63,7 @@ public class Bullet2 extends GameObject{
 			bullet.recycle();
 		}
 	}
-	// ¶ÔÏóµÄÂß¼­º¯Êý
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void logic() {
 		if (object_y >= 0) {
@@ -79,27 +79,27 @@ public class Bullet2 extends GameObject{
 			isAlive2 = false;
 		}
 	}
-	// ¼ì²âÅö×²
+	// ï¿½ï¿½ï¿½ï¿½ï¿½×²
 	@Override
 	public boolean isCollide(GameObject obj) {
 		attack = false;
 		attack2 = false;
-		//ÅÐ¶Ï×ó±ßµÄ×Óµ¯ÊÇ·ñ´æ»î
+		//ï¿½Ð¶ï¿½ï¿½ï¿½ßµï¿½ï¿½Óµï¿½ï¿½Ç·ï¿½ï¿½ï¿½
 		if(isAlive){
 			if(obj instanceof SmallPlane){
 				if (object_x <= obj.getObject_x() && object_x + object_width <= obj.getObject_x()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÓÒ²à
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ò²ï¿½
 				else if (obj.getObject_x() <= object_x && obj.getObject_x() + obj.getObject_width() <= object_x) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÉÏ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ï·ï¿½
 				else if (object_y <= obj.getObject_y()
 						&& object_y + object_height + 30 <= obj.getObject_y()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÏÂ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Â·ï¿½
 				else if (obj.getObject_y() <= object_y
 						&& obj.getObject_y() + obj.getObject_height() + 30 <= object_y) {
 					
@@ -113,16 +113,16 @@ public class Bullet2 extends GameObject{
 				if (object_x <= obj.getObject_x() && object_x + object_width <= obj.getObject_x()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÓÒ²à
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ò²ï¿½
 				else if (obj.getObject_x() <= object_x && obj.getObject_x() + obj.getObject_width() <= object_x) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÉÏ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ï·ï¿½
 				else if (object_y <= obj.getObject_y()
 						&& object_y + object_height + 20 <= obj.getObject_y()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÏÂ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Â·ï¿½
 				else if (obj.getObject_y() <= object_y
 						&& obj.getObject_y() + obj.getObject_height() + 20 <= object_y) {
 					
@@ -136,16 +136,16 @@ public class Bullet2 extends GameObject{
 				if (object_x <= obj.getObject_x() && object_x + object_width <= obj.getObject_x()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÓÒ²à
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ò²ï¿½
 				else if (obj.getObject_x() <= object_x && obj.getObject_x() + obj.getObject_width() <= object_x) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÉÏ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ï·ï¿½
 				else if (object_y <= obj.getObject_y()
 						&& object_y + object_height + 10 <= obj.getObject_y()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÏÂ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Â·ï¿½
 				else if (obj.getObject_y() <= object_y
 						&& obj.getObject_y() + obj.getObject_height() + 10 <= object_y) {
 					
@@ -161,16 +161,16 @@ public class Bullet2 extends GameObject{
 				if (object_x2 <= obj.getObject_x() && object_x2 + object_width <= obj.getObject_x()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÓÒ²à
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ò²ï¿½
 				else if (obj.getObject_x() <= object_x2 && obj.getObject_x() + obj.getObject_width() <= object_x2) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÉÏ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ï·ï¿½
 				else if (object_y2 <= obj.getObject_y()
 						&& object_y2 + object_height + 30 <= obj.getObject_y()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÏÂ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Â·ï¿½
 				else if (obj.getObject_y() <= object_y2
 						&& obj.getObject_y() + obj.getObject_height() + 30 <= object_y2) {
 					
@@ -184,16 +184,16 @@ public class Bullet2 extends GameObject{
 				if (object_x2 <= obj.getObject_x() && object_x2 + object_width <= obj.getObject_x()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÓÒ²à
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ò²ï¿½
 				else if (obj.getObject_x() <= object_x2 && obj.getObject_x() + obj.getObject_width() <= object_x2) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÉÏ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ï·ï¿½
 				else if (object_y2 <= obj.getObject_y()
 						&& object_y2 + object_height + 20 <= obj.getObject_y()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÏÂ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Â·ï¿½
 				else if (obj.getObject_y() <= object_y2
 						&& obj.getObject_y() + obj.getObject_height() + 20 <= object_y2) {
 					
@@ -207,16 +207,16 @@ public class Bullet2 extends GameObject{
 				if (object_x2 <= obj.getObject_x() && object_x2 + object_width <= obj.getObject_x()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÓÒ²à
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ò²ï¿½
 				else if (obj.getObject_x() <= object_x2 && obj.getObject_x() + obj.getObject_width() <= object_x2) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÉÏ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ï·ï¿½
 				else if (object_y2 <= obj.getObject_y()
 						&& object_y2 + object_height + 10 <= obj.getObject_y()) {
 					
 				}
-				// ¾ØÐÎ1Î»ÓÚ¾ØÐÎ2µÄÏÂ·½
+				// ï¿½ï¿½ï¿½ï¿½1Î»ï¿½Ú¾ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Â·ï¿½
 				else if (obj.getObject_y() <= object_y2
 						&& obj.getObject_y() + obj.getObject_height() + 10 <= object_y2) {
 					
@@ -231,7 +231,7 @@ public class Bullet2 extends GameObject{
 			harm = 2;
 		return attack || attack2;
 	}
-	//ÅÐ¶Ï×Óµ¯ÊÇ·ñ´æÔÚ
+	//ï¿½Ð¶ï¿½ï¿½Óµï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½
 	public boolean isAlive() {
 		return isAlive || isAlive2;
 	}

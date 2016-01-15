@@ -21,13 +21,12 @@ public class MainActivity extends Activity {
 	}
 
 
-	//��ʾ��Ϸ����
 	public void toMainView(){
 		mainView = new MainView(this);
 		setContentView(mainView);
 		readyView = null;
 	}
-	//��ʾ�������
+
 	public void toEndView(int scoreSum){
 		System.gc();
 		endView = new EndView(this,scoreSum);

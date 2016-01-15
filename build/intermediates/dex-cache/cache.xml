@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-5c505063709a977332172c6fa9116c1b86a0ef29.jar" />
-    </item>
-    <item
         jar="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
         <dex dex="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\pre-dexed\debug\classes-b376de5ee11b84c2fc4dcb76afc28ae49c904cba.jar" />
+    </item>
+    <item
+        jar="D:\Private\myWork\festival_sms\beatplane\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Private\myWork\festival_sms\beatplane\build\intermediates\pre-dexed\debug\classes-3336733598e345afb831036da5a33b4f05cca47b.jar" />
     </item>
     <item
         jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
@@ -28,6 +28,34 @@
         revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
         <dex dex="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\pre-dexed\debug\classes-fed668940e630aa68e2472bbf27fbf32bc1fbcf1.jar" />
+    </item>
+    <item
+        jar="D:\Private\myWork\festival_sms\beatplane\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Private\myWork\festival_sms\beatplane\build\intermediates\pre-dexed\debug\classes-753661f1e3cad6011daf1db97b85a9c69ef12889.jar" />
+    </item>
+    <item
+        jar="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Private\myWork\festival_sms\firework_anim\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-5c505063709a977332172c6fa9116c1b86a0ef29.jar" />
+    </item>
+    <item
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Private\myWork\festival_sms\beatplane\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-28ea49b77f363c7d59d06ef8aead2236e52bb08f.jar" />
+    </item>
+    <item
+        jar="D:\Private\myWork\festival_sms\beatplane\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Private\myWork\festival_sms\beatplane\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-6fdc652a9417bde4eec520408d2f0fc49e703570.jar" />
     </item>
 
 </items>

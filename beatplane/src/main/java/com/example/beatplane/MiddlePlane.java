@@ -8,23 +8,23 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 
 import com.example.beatplane.R;
-/*ÖÐÐÍ·É»úµÄÀà*/
+/*ï¿½ï¿½ï¿½Í·É»ï¿½ï¿½ï¿½ï¿½*/
 public class MiddlePlane  extends GameObject{
 	private Bitmap middlePlane;
-	private int blood; 		// ¶ÔÏóµÄµ±Ç°ÑªÁ¿
-	private int bloodVolume;  // ¶ÔÏóµÄÑªÁ¿
+	private int blood; 		// ï¿½ï¿½ï¿½ï¿½Äµï¿½Ç°Ñªï¿½ï¿½
+	private int bloodVolume;  // ï¿½ï¿½ï¿½ï¿½ï¿½Ñªï¿½ï¿½
 	MiddlePlane(Resources resources) {
 		super(resources);
 		// TODO Auto-generated constructor stub
 		initBitmap();
 		this.score = 1000;
 	}
-	//³õÊ¼»¯Êý¾Ý
+	//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void setScreenWH(float screen_width,float screen_height){
 		super.setScreenWH(screen_width, screen_height);
 	}
-	//³õÊ¼»¯Êý¾Ý
+	//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void initial(int arg0,float arg1,float arg2,int arg3){
 		super.initial(arg0,arg1,arg2,arg3);
@@ -34,15 +34,15 @@ public class MiddlePlane  extends GameObject{
 		object_x = ran.nextInt((int)(screen_width - object_width));
 		this.speed = ran.nextInt(2) + 6 * arg3;	
 	}
-	//³õÊ¼»¯Í¼Æ¬
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
 	@Override
 	public void initBitmap() {
 		// TODO Auto-generated method stub
 		middlePlane = BitmapFactory.decodeResource(resources, R.drawable.middle);
-		object_width = middlePlane.getWidth();		//»ñµÃÃ¿Ò»Ö¡Î»Í¼µÄ¿í
-		object_height = middlePlane.getHeight()/4;		//»ñµÃÃ¿Ò»Ö¡Î»Í¼µÄ¸ß
+		object_width = middlePlane.getWidth();		//ï¿½ï¿½ï¿½Ã¿Ò»Ö¡Î»Í¼ï¿½Ä¿ï¿½
+		object_height = middlePlane.getHeight()/4;		//ï¿½ï¿½ï¿½Ã¿Ò»Ö¡Î»Í¼ï¿½Ä¸ï¿½
 	}
-	//»æÍ¼º¯Êý
+	//ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void drawSelf(Canvas canvas) {
 		// TODO Auto-generated method stub
@@ -55,7 +55,7 @@ public class MiddlePlane  extends GameObject{
 				logic();
 			}
 			else{
-				int y = (int) (currentFrame * object_height); // »ñµÃµ±Ç°Ö¡Ïà¶ÔÓÚÎ»Í¼µÄY×ø±ê
+				int y = (int) (currentFrame * object_height); // ï¿½ï¿½Ãµï¿½Ç°Ö¡ï¿½ï¿½ï¿½ï¿½ï¿½Î»Í¼ï¿½ï¿½Yï¿½ï¿½ï¿½
 				canvas.save();
 				canvas.clipRect(object_x,object_y,object_x + object_width,object_y + object_height);
 				canvas.drawBitmap(middlePlane, object_x, object_y - y,paint);
@@ -69,7 +69,7 @@ public class MiddlePlane  extends GameObject{
 			}
 		}
 	}
-	//ÊÍ·Å×ÊÔ´
+	//ï¿½Í·ï¿½ï¿½ï¿½Ô´
 	@Override
 	public void release() {
 		// TODO Auto-generated method stub
@@ -77,12 +77,12 @@ public class MiddlePlane  extends GameObject{
 			middlePlane.recycle();
 		}
 	}
-	// ¼ì²âÅö×²
+	// ï¿½ï¿½ï¿½ï¿½ï¿½×²
 	@Override
 	public boolean isCollide(GameObject obj) {
 		return super.isCollide(obj);
 	}
-	//¶ÔÏóµÄÂß¼­º¯Êý
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void logic(){
 		if (object_y < screen_height) {
@@ -91,7 +91,7 @@ public class MiddlePlane  extends GameObject{
 			isAlive = false;
 		}
 	}
-	//±»¹¥»÷µÄÂß¼­º¯Êý
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void attacked(int harm){
 		blood -= harm;

@@ -4,15 +4,15 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-/*boosµÐ»úµÄ×Óµ¯*/
+/*boosï¿½Ð»ï¿½ï¿½ï¿½Óµï¿½*/
 public class BossBullet extends GameObject{
-	private Bitmap bullet; 		 // ×Óµ¯µÄÍ¼Æ¬
+	private Bitmap bullet; 		 // ï¿½Óµï¿½ï¿½ï¿½Í¼Æ¬
 	BossBullet(Resources resources) {
 		super(resources);
 		initBitmap();
 	}
 
-	// ³õÊ¼»¯Êý¾Ý
+	// ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void initial(int arg0,float arg1,float arg2,int arg3) {
 		isAlive = true;
@@ -21,7 +21,7 @@ public class BossBullet extends GameObject{
 		object_x = arg1 - object_width / 2;
 		object_y = arg2 - object_height;
 	}
-	//³õÊ¼»¯Í¼Æ¬
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
 	@Override
 	public void initBitmap() {
 		// TODO Auto-generated method stub
@@ -29,7 +29,7 @@ public class BossBullet extends GameObject{
 		object_width = bullet.getWidth();
 		object_height = bullet.getHeight();
 	}
-	// »æÍ¼º¯Êý
+	// ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void drawSelf(Canvas canvas) {
 		// TODO Auto-generated method stub
@@ -48,7 +48,7 @@ public class BossBullet extends GameObject{
 			bullet.recycle();
 		}
 	}
-	// ¶ÔÏóµÄÂß¼­º¯Êý
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void logic() {
 		if (object_y <= screen_height) {
@@ -57,7 +57,7 @@ public class BossBullet extends GameObject{
 			isAlive = false;
 		}
 	}
-	// ¼ì²âÅö×²
+	// ï¿½ï¿½ï¿½ï¿½ï¿½×²
 	@Override
 	public boolean isCollide(GameObject obj) {
 		return super.isCollide(obj);

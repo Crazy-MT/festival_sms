@@ -6,16 +6,16 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-/*ÎïÆ·Àà*/
+/**/
 public class GameGoods extends GameObject{
 	private Bitmap bmp;					
 	private int whichGoods;				
-	//ÎïÆ·µÄ·½Ïò³£Á¿
+	//ï¿½ï¿½Æ·ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½
 	private int DIR_LEFT_UP = 1;
 	private int DIR_RIGHT_UP = 2;
 	private int DIR_LEFT_DOWN = 3;
 	private int DIR_RIGHT_DOWN = 4;
-	private int direction;			//ÎïÆ·µÄ·½Ïò
+	private int direction;			//ï¿½ï¿½Æ·ï¿½Ä·ï¿½ï¿½ï¿½
 	GameGoods(Resources resources,int whichGoods) {
 		super(resources);
 		// TODO Auto-generated constructor stub
@@ -25,32 +25,32 @@ public class GameGoods extends GameObject{
 		direction = ran.nextInt(2) + 3;
 		initBitmap();
 	}
-	// ÉèÖÃÆÁÄ»Êý¾Ý
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½
 	@Override
 	public void setScreenWH(float screen_width, float screen_height) {
 		super.setScreenWH(screen_width, screen_height);
 	}
-	// ³õÊ¼»¯Êý¾Ý
+	// ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void initial(int arg0,float arg1,float arg2,int arg3){
 		super.initial(arg0,arg1,arg2,arg3);
 		object_x = screen_width/2 - object_width/2;
 	}
-	// ³õÊ¼»¯Í¼Æ¬
+	// ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
 	@Override
 	public void initBitmap() {
 		if(whichGoods == 1){
-			//µ¼µ¯ÎïÆ·
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·
 			bmp = BitmapFactory.decodeResource(resources, R.drawable.missile_goods);
 		}
 		else if(whichGoods == 2){
-			//×Óµ¯ÎïÆ·
+			//ï¿½Óµï¿½ï¿½ï¿½Æ·
 			bmp = BitmapFactory.decodeResource(resources, R.drawable.bullet_goods);
 		}
 		 object_width = bmp.getWidth();			
 		 object_height = bmp.getHeight();		
 	}
-	// »æÍ¼º¯Êý
+	// ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void drawSelf(Canvas canvas) {
 		if(isAlive){
@@ -61,14 +61,14 @@ public class GameGoods extends GameObject{
 			logic();
 		}
 	}
-	// ÊÍ·Å×ÊÔ´
+	// ï¿½Í·ï¿½ï¿½ï¿½Ô´
 	@Override
 	public void release(){
 		if(!bmp.isRecycled()){
 			bmp.recycle();
 		}
 	}
-	// ¶ÔÏóµÄÂß¼­º¯Êý
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void logic() {
 		Random ran = new Random();
@@ -137,7 +137,7 @@ public class GameGoods extends GameObject{
 			}
 		}
 	}
-	// ¼ì²âÅö×²
+	// ï¿½ï¿½ï¿½ï¿½ï¿½×²
 	@Override
 	public boolean isCollide(GameObject obj) {
 		return super.isCollide(obj);

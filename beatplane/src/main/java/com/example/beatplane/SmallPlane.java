@@ -8,23 +8,23 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-/*Ð¡ÐÍ·É»úµÄÀà*/
+/*Ð¡ï¿½Í·É»ï¿½ï¿½ï¿½ï¿½*/
 public class SmallPlane extends GameObject{
 	private Bitmap smallPlane;
-	private int blood; 		// ¶ÔÏóµÄµ±Ç°ÑªÁ¿
-	private int bloodVolume;  // ¶ÔÏóµÄÑªÁ¿
+	private int blood; 		// ï¿½ï¿½ï¿½ï¿½Äµï¿½Ç°Ñªï¿½ï¿½
+	private int bloodVolume;  // ï¿½ï¿½ï¿½ï¿½ï¿½Ñªï¿½ï¿½
 	SmallPlane(Resources resources) {
 		super(resources);
 		// TODO Auto-generated constructor stub
 		initBitmap();
 		this.score = 100;
 	}
-	//³õÊ¼»¯Êý¾Ý
+	//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void setScreenWH(float screen_width,float screen_height){
 		super.setScreenWH(screen_width, screen_height);
 	}
-	//³õÊ¼»¯Êý¾Ý
+	//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void initial(int arg0,float arg1,float arg2,int arg3){
 		super.initial(arg0,arg1,arg2,arg3);
@@ -34,15 +34,15 @@ public class SmallPlane extends GameObject{
 		object_x = ran.nextInt((int)(screen_width - object_width));
 		this.speed = ran.nextInt(8) + 8 * arg3;	
 	}
-	//³õÊ¼»¯Í¼Æ¬
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
 	@Override
 	public void initBitmap() {
 		// TODO Auto-generated method stub
 		 smallPlane = BitmapFactory.decodeResource(resources, R.drawable.small);
-		 object_width = smallPlane.getWidth();		//»ñµÃÃ¿Ò»Ö¡Î»Í¼µÄ¿í
-		 object_height = smallPlane.getHeight()/3;		//»ñµÃÃ¿Ò»Ö¡Î»Í¼µÄ¸ß
+		 object_width = smallPlane.getWidth();		//ï¿½ï¿½ï¿½Ã¿Ò»Ö¡Î»Í¼ï¿½Ä¿ï¿½
+		 object_height = smallPlane.getHeight()/3;		//ï¿½ï¿½ï¿½Ã¿Ò»Ö¡Î»Í¼ï¿½Ä¸ï¿½
 	}
-	//»æÍ¼º¯Êý
+	//ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void drawSelf(Canvas canvas) {
 		// TODO Auto-generated method stub
@@ -55,7 +55,7 @@ public class SmallPlane extends GameObject{
 				logic();
 			}
 			else{
-				int y = (int) (currentFrame * object_height); // »ñµÃµ±Ç°Ö¡Ïà¶ÔÓÚÎ»Í¼µÄY×ø±ê
+				int y = (int) (currentFrame * object_height); // ï¿½ï¿½Ãµï¿½Ç°Ö¡ï¿½ï¿½ï¿½ï¿½ï¿½Î»Í¼ï¿½ï¿½Yï¿½ï¿½ï¿½
 				canvas.save();
 				canvas.clipRect(object_x,object_y,object_x + object_width,object_y + object_height);
 				canvas.drawBitmap(smallPlane, object_x, object_y - y,paint);
@@ -69,18 +69,18 @@ public class SmallPlane extends GameObject{
 			}
 		}
 	}
-	//ÊÍ·Å×ÊÔ´
+	//ï¿½Í·ï¿½ï¿½ï¿½Ô´
 	@Override
 	public void release() {
 		// TODO Auto-generated method stub
 		
 	}
-	// ¼ì²âÅö×²
+	// ï¿½ï¿½ï¿½ï¿½ï¿½×²
 	@Override
 	public boolean isCollide(GameObject obj) {
 		return super.isCollide(obj);
 	}
-	//¶ÔÏóµÄÂß¼­º¯Êý
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void logic(){
 		if (object_y < screen_height) {
@@ -89,7 +89,7 @@ public class SmallPlane extends GameObject{
 			isAlive = false;
 		}
 	}
-	//±»¹¥»÷µÄÂß¼­º¯Êý
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public void attacked(int harm){
 		blood -= harm;

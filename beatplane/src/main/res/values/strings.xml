@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BeatPlane</string>
+    <string name="start_game">Start Game</string>
+    <string name="end_game">Exit Game</string>
 </resources>

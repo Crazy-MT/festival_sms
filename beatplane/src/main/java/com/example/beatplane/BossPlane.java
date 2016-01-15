@@ -7,25 +7,24 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-/*BOOS飞机的类*/
+
 public class BossPlane extends GameObject{
 	private Bitmap boosPlane;
 	private Bitmap boosPlaneBomb;
-	private int blood; 				// 对象的当前血量
-	private int bloodVolume; 		 // 对象的血量
-	private int direction;			//移动的方向
+	private int blood;
+	private int bloodVolume;
+	private int direction;
 	private int DIR_LEFT = 1;
 	private int DIR_RIGHT = 2;
-	private int interval;			//发射子弹的间隔
+	private int interval;
 	private float leftBorder;		
 	private float rightBorder;
-	private boolean isFire;			//是否允许射击
-	private boolean isCrazy;		//是否为疯狂状态
-	private List<GameObject> bullets;//子弹类
-	private MyPlane myplane;		//玩家的飞机类
+	private boolean isFire;
+	private boolean isCrazy;
+	private List<GameObject> bullets;
+	private MyPlane myplane;
 	BossPlane(Resources resources,MainActivity mainActivity) {
 		super(resources);
-		// TODO Auto-generated constructor stub
 		initBitmap();
 		this.score = 10000;
 		interval = 1;
@@ -35,7 +34,7 @@ public class BossPlane extends GameObject{
 			bullets.add(bullet);
 		}
 	}
-	//初始化数据
+
 	@Override
 	public void setScreenWH(float screen_width,float screen_height){
 		super.setScreenWH(screen_width, screen_height);
@@ -45,11 +44,11 @@ public class BossPlane extends GameObject{
 		leftBorder = -object_width/2;
 		rightBorder = screen_width - object_width/2;
 	}
-	//设置对象
+
 	public void setPlane(MyPlane myplane){
 		this.myplane = myplane;
 	}
-	//初始化数据
+
 	@Override
 	public void initial(int arg0,float arg1,float arg2,int arg3){
 		super.initial(arg0,arg1,arg2,arg3);
@@ -62,16 +61,16 @@ public class BossPlane extends GameObject{
 		currentFrame = 0;
 		this.speed = 6;	
 	}
-	//初始化图片
+
 	@Override
 	public void initBitmap() {
 		// TODO Auto-generated method stub
 		boosPlane = BitmapFactory.decodeResource(resources, R.drawable.bossplane);
 		boosPlaneBomb = BitmapFactory.decodeResource(resources, R.drawable.bossplanebomb);
-		object_width = boosPlane.getWidth();		//获得每一帧位图的宽
-		object_height = boosPlane.getHeight()/3;		//获得每一帧位图的高	
+		object_width = boosPlane.getWidth();
+		object_height = boosPlane.getHeight()/3;
 	}
-	//初始化子弹对象
+
 	public void initButtle(){
 		if(isFire){
 			if(interval == 1){
@@ -88,13 +87,13 @@ public class BossPlane extends GameObject{
 			}
 		}
 	}
-	//绘图函数
+
 	@Override
 	public void drawSelf(Canvas canvas) {
 		// TODO Auto-generated method stub
 		if(isAlive){
 			if(!isExplosion){
-				int y = (int) (currentFrame * object_height); // 获得当前帧相对于位图的Y坐标
+				int y = (int) (currentFrame * object_height);
 				canvas.save();
 				canvas.clipRect(object_x,object_y,object_x + object_width,object_y + object_height);
 				canvas.drawBitmap(boosPlane, object_x, object_y - y,paint);
@@ -104,10 +103,10 @@ public class BossPlane extends GameObject{
 				if(currentFrame >= 3){
 					currentFrame = 0;
 				}
-				shoot(canvas);		//射击
+				shoot(canvas);
 			}
 			else{
-				int y = (int) (currentFrame * object_height); // 获得当前帧相对于位图的Y坐标
+				int y = (int) (currentFrame * object_height);
 				canvas.save();
 				canvas.clipRect(object_x,object_y,object_x + object_width,object_y + object_height);
 				canvas.drawBitmap(boosPlaneBomb, object_x, object_y - y,paint);
@@ -122,13 +121,13 @@ public class BossPlane extends GameObject{
 			}	
 		}	
 	}
-	//发射子弹
+
 	public boolean shoot(Canvas canvas){
 		if(isFire){
-			//遍历子弹的对象
+
 			for(GameObject obj:bullets){	
 				if(obj.isAlive()){
-					obj.drawSelf(canvas);//绘制子弹
+					obj.drawSelf(canvas);
 					if(obj.isCollide(myplane)){
 						myplane.setAlive(false);
 						return true;
@@ -138,7 +137,7 @@ public class BossPlane extends GameObject{
 		}
 		return false;
 	}
-	//释放资源
+
 	@Override
 	public void release() {
 		// TODO Auto-generated method stub
@@ -152,12 +151,12 @@ public class BossPlane extends GameObject{
 			boosPlaneBomb.recycle();
 		}
 	}
-	// 检测碰撞
+
 	@Override
 	public boolean isCollide(GameObject obj) {
 		return super.isCollide(obj);
 	}
-	//对象的逻辑函数
+
 	@Override
 	public void logic(){
 		if (object_y < 0) {
@@ -187,7 +186,7 @@ public class BossPlane extends GameObject{
 			}
 		}
 	}
-	//被攻击的逻辑函数
+
 	@Override
 	public void attacked(int harm){
 		blood -= harm;

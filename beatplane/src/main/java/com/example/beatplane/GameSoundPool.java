@@ -7,7 +7,7 @@ import com.example.beatplane.R;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.SoundPool;
-/*音效播放类*/
+
 public class GameSoundPool {
 	private MainActivity mainActivity;
 	private SoundPool soundPool;
@@ -18,13 +18,13 @@ public class GameSoundPool {
 		soundPool = new SoundPool(8,AudioManager.STREAM_MUSIC,0);
 		map = new HashMap<Integer,Integer>();
 	}
-	//初始化系统音效
+
 	public void initSysSound(){
 		if(isOpen){
 			map.put(1, soundPool.load(mainActivity, R.raw.button, 1));
 		}
 	}
-	//初始化系统音效
+
 	public void initSound(){
 		if(isOpen){
 			map.put(1, soundPool.load(mainActivity, R.raw.shoot, 1));
@@ -35,7 +35,7 @@ public class GameSoundPool {
 			map.put(6, soundPool.load(mainActivity, R.raw.get_goods, 1));
 		}
 	}
-	//播放音效
+
 	public void playSound(int sound,int loop){
 		if(isOpen){
 			AudioManager am = (AudioManager)mainActivity.getSystemService(Context.AUDIO_SERVICE);
@@ -45,12 +45,12 @@ public class GameSoundPool {
 			soundPool.play(map.get(sound), volume, volume, 1, loop, 1.0f);
 		}	
 	}
-	//释放资源
+
 	public void release(){
 		if(soundPool != null)
 			soundPool.release();
 	}
-	//停止播放音效
+
 	public void stopSound(int streamID){
 		if(isOpen){
 			soundPool.pause(streamID);
