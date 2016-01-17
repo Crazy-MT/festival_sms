@@ -1,4 +1,4 @@
-include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane', ':otto_demo', ':otto_demo', ':firework_anim'
+include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane', ':otto_demo', ':otto_demo', ':firework_anim', ':handler_demo'
 //include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':exitactivity'
 include ':listviewitemslidedeletebtnshow'
 include ':widget'
