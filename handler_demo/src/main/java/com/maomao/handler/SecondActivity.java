@@ -28,7 +28,7 @@ public class SecondActivity extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        TextView t
+
         myThread = new MyThread();
         myThread.start();
         try {
