@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/beatplane/beatplane.iml" filepath="$PROJECT_DIR$/beatplane/beatplane.iml" />
       <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/festival_sms.iml" filepath="$PROJECT_DIR$/festival_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/firework_anim/firework_anim.iml" filepath="$PROJECT_DIR$/firework_anim/firework_anim.iml" />
       <module fileurl="file://$PROJECT_DIR$/handler_demo/handler_demo.iml" filepath="$PROJECT_DIR$/handler_demo/handler_demo.iml" />

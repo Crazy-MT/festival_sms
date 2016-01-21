@@ -14,6 +14,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.os.BatteryManager;
 import android.os.IBinder;
 import android.provider.ContactsContract;
@@ -48,7 +51,7 @@ public class TimerService extends Service  {
 	public void onStart(Intent intent, int startId) {
 		super.onStart(intent, startId);
 
-		this.flag = true; // 线程循环标志置为true
+		this.flag = false; // 线程循环标志置为true
 		new Thread() { // 动画线程
 
 			public void run() {
@@ -139,18 +142,32 @@ public class TimerService extends Service  {
 	}
 
 	private void updateViews() {
-		IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
-		Intent batteryStatus = getApplicationContext().registerReceiver(null,
-				ifilter);
-		int level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+		//IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+		//Intent batteryStatus = getApplicationContext().registerReceiver(null,
+		//		ifilter);
+		//int level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
 
 		String time = sdf.format(new Date());
 		rv.setTextViewText(R.id.tv_time, time);
 		//setFlagStatue();
-		rv.setTextViewText(R.id.tv_power, "电量：" + level);
+		//rv.setTextViewText(R.id.tv_power, "电量：" + level);
+		rv.setImageViewBitmap(R.id.img_bitmap , canvasBitmap());
 		manager.updateAppWidget(cn, rv);
 	}
 
+
+	private Bitmap canvasBitmap(){
+		Bitmap bitmap = Bitmap.createBitmap(140, 50 , Bitmap.Config.ARGB_8888);
+		Canvas canvas = new Canvas(bitmap);
+		Paint p = new Paint();
+		p.setColor(Color.RED);// 设置红色
+		canvas.drawText("画圆：", 10, 20, p);// 画文本
+		canvas.drawCircle(60, 20, 10, p);// 小圆
+		p.setAntiAlias(true);// 设置画笔的锯齿效果。 true是去除，大家一看效果就明白了
+		canvas.drawCircle(120, 20, 20, p);// 大圆
+		Log.e("can" , bitmap.toString());
+		return bitmap;
+	}
 
 
 	public static int getMinute(Date date) {
