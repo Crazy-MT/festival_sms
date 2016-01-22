@@ -3,3 +3,4 @@ include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':
 include ':listviewitemslidedeletebtnshow'
 include ':widget'
 include ':logger_demo'
+include ':demo'

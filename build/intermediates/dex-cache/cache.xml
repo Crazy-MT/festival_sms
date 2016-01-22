@@ -6,28 +6,28 @@
         jumboMode="false"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="F:\Android\festival_sms\handler_demo\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-fc31b1308c01369429c42b4ee0e871ec9f4364ee.jar" />
+        <dex dex="F:\Android\festival_sms\demo\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-fc31b1308c01369429c42b4ee0e871ec9f4364ee.jar" />
     </item>
     <item
-        jar="F:\Android\festival_sms\handler_demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="F:\Android\festival_sms\handler_demo\build\intermediates\pre-dexed\debug\classes-04d5a657cf1c779a5453a75e2abfda21831be6f7.jar" />
-    </item>
-    <item
-        jar="F:\Android\festival_sms\handler_demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jar="F:\Android\festival_sms\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="F:\Android\festival_sms\handler_demo\build\intermediates\pre-dexed\debug\classes-5f05c191989214ee775fec8c6ac7d20d8d91c5a3.jar" />
+        <dex dex="F:\Android\festival_sms\demo\build\intermediates\pre-dexed\debug\classes-5cd32ca076499ca04a5d9bfc98d775b8e68fa4e9.jar" />
     </item>
     <item
-        jar="F:\Android\festival_sms\handler_demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="F:\Android\festival_sms\demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Android\festival_sms\demo\build\intermediates\pre-dexed\debug\classes-a98a516e9887e61753c288960e0b0f9ac091443e.jar" />
+    </item>
+    <item
+        jar="F:\Android\festival_sms\demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="F:\Android\festival_sms\handler_demo\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-086765500b2fbcc8593ab57a8ad4d0a2915d2772.jar" />
+        <dex dex="F:\Android\festival_sms\demo\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-48a1081a5ce3efad840c0c36b58cd04e97d34a97.jar" />
     </item>
 
 </items>

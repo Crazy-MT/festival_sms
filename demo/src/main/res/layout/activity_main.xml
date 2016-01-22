@@ -10,7 +10,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="widget.amberweather.com.demo.MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/img_bitmap"
         android:text="Hello World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
