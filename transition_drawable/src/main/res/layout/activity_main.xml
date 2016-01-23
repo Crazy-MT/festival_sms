@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context="com.maomao.transitiondrawable.MainActivity">
 
     <ImageView
@@ -25,15 +25,10 @@
         android:textSize="40sp"
         android:layout_gravity="bottom"
         android:background="#ff0000"
-        android:layout_marginBottom="-4dp"
         />
 
-    <Button
+    <ToggleButton
+        android:id="@+id/tb"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="吕建"
-        android:textSize="40dp"
-        android:background="#ff0000"
-        android:layout_marginTop="-10dp"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:layout_height="wrap_content"    />
 </LinearLayout>
