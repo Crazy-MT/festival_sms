@@ -41,8 +41,6 @@
                 android:resource="@xml/widgetconfig" />
         </receiver>
 
-        <service android:name="com.example.infolife.widget.TimerService" >
-        </service>
     </application>
 
 </manifest>

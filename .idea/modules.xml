@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/logger_demo/logger_demo.iml" filepath="$PROJECT_DIR$/logger_demo/logger_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myqqview/myqqview.iml" filepath="$PROJECT_DIR$/myqqview/myqqview.iml" />
       <module fileurl="file://$PROJECT_DIR$/otto_demo/otto_demo.iml" filepath="$PROJECT_DIR$/otto_demo/otto_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/particlenews/particlenews.iml" filepath="$PROJECT_DIR$/particlenews/particlenews.iml" />
       <module fileurl="file://$PROJECT_DIR$/percentdemo/percentdemo.iml" filepath="$PROJECT_DIR$/percentdemo/percentdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" filepath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/transition_drawable/transition_drawable.iml" filepath="$PROJECT_DIR$/transition_drawable/transition_drawable.iml" />

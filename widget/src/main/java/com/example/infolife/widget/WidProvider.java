@@ -12,6 +12,9 @@ import android.os.BatteryManager;
 import android.util.Log;
 import android.widget.RemoteViews;
 
+import com.example.infolife.widget.service.CanvasService;
+import com.example.infolife.widget.service.TimerService;
+
 public class WidProvider extends AppWidgetProvider {
 
 	/**
