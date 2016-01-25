@@ -8,45 +8,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/beatplane" />
-            <option value="$PROJECT_DIR$/camera" />
-            <option value="$PROJECT_DIR$/demo" />
-            <option value="$PROJECT_DIR$/firework_anim" />
-            <option value="$PROJECT_DIR$/handler_demo" />
-            <option value="$PROJECT_DIR$/httptest" />
-            <option value="$PROJECT_DIR$/imageloader" />
-            <option value="$PROJECT_DIR$/listviewitemslidedeletebtnshow" />
-            <option value="$PROJECT_DIR$/logger_demo" />
-            <option value="$PROJECT_DIR$/myqqview" />
-            <option value="$PROJECT_DIR$/otto_demo" />
-            <option value="$PROJECT_DIR$/particlenews" />
-            <option value="$PROJECT_DIR$/percentdemo" />
-            <option value="$PROJECT_DIR$/recycleviewtest" />
-            <option value="$PROJECT_DIR$/transition_drawable" />
-            <option value="$PROJECT_DIR$/widget" />
+            <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/beatplane" />
-            <option value="$PROJECT_DIR$/camera" />
-            <option value="$PROJECT_DIR$/demo" />
-            <option value="$PROJECT_DIR$/firework_anim" />
-            <option value="$PROJECT_DIR$/handler_demo" />
-            <option value="$PROJECT_DIR$/httptest" />
-            <option value="$PROJECT_DIR$/imageloader" />
-            <option value="$PROJECT_DIR$/listviewitemslidedeletebtnshow" />
-            <option value="$PROJECT_DIR$/logger_demo" />
-            <option value="$PROJECT_DIR$/myqqview" />
-            <option value="$PROJECT_DIR$/otto_demo" />
-            <option value="$PROJECT_DIR$/particlenews" />
-            <option value="$PROJECT_DIR$/percentdemo" />
-            <option value="$PROJECT_DIR$/recycleviewtest" />
-            <option value="$PROJECT_DIR$/transition_drawable" />
-            <option value="$PROJECT_DIR$/widget" />
+            <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
       </GradleProjectSettings>
