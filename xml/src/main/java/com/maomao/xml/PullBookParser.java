@@ -46,6 +46,9 @@ public class PullBookParser implements NewsParser {
                         eventType = parser.next();
                         Log.e("pull4",parser.getText());
                         news.setImage(parser.getText());
+                    } else if (parser.getName().equals("description")){
+                        eventType = parser.next();
+                        news.setDescription(parser.getText());
                     }
                     break;
                 case XmlPullParser.END_TAG:

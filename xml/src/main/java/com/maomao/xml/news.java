@@ -6,6 +6,15 @@ package com.maomao.xml;
 public class News {
     private String title ;
     private String image ;
+    private String description ;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getTitle() {
         return title;
@@ -23,8 +32,4 @@ public class News {
         this.image = image;
     }
 
-    @Override
-    public String toString() {
-        return title+image;
-    }
 }
