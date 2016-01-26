@@ -63,18 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
 
                     int count = mRecyclerView.getChildCount() ;
-                    News news0 = newsBeanList.get(count+0);
-                    News news1 = newsBeanList.get(count+1);
-                    News news2 = newsBeanList.get(count+2);
-                    mAdapter.addData(count+0 , news0);
-                    mAdapter.addData(count+1 , news1);
-                    mAdapter.addData(count+2 , news2);
-
-                    /*Log.e("count" , count + "");
+                    Log.e("count" , count + "");
                     for ( int i = 0 ; i < 3 ; i++){
-                        mAdapter.addData(count+i , news);
-                        Log.e("count + j" , newsBeanList.get(count+i).getTitle());
-                    }*/
+                        mAdapter.addData(count+i , newsBeanList.get(count+i));
+                        Log.e("count + j" , newsBeanList.size()+"");
+                    }
                 } else {
                     Toast.makeText(getApplicationContext() , "没有数据" ,Toast.LENGTH_SHORT).show();
                 }
@@ -99,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(List<News> newsBeanList) {
             super.onPostExecute(newsBeanList);
-            if (newsBeanList!=null){
+            if (newsBeanList.size()!=0){
                 haveData = true ;
                 mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList.subList(0, 3) , mRecyclerView);
                 mRecyclerView.setAdapter(mAdapter);
