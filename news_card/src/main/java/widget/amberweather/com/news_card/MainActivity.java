@@ -1,5 +1,6 @@
 package widget.amberweather.com.news_card;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -79,9 +80,29 @@ public class MainActivity extends AppCompatActivity {
             mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList.subList(0, 3) , mRecyclerView);
             mRecyclerView.setAdapter(mAdapter);
             //设置布局管理
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.VERTICAL, false);
+            MyLayoutManager linearLayoutManager = new MyLayoutManager(MainActivity.this );
             mRecyclerView.setLayoutManager(linearLayoutManager);
             mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+        }
+
+        public class MyLayoutManager extends LinearLayoutManager {
+
+            public MyLayoutManager(Context context) {
+                super(context);
+                // TODO Auto-generated constructor stub
+            }
+
+
+            @Override
+            public void onMeasure(RecyclerView.Recycler recycler, RecyclerView.State state, int widthSpec, int heightSpec) {
+                View view = recycler.getViewForPosition(0);
+                if(view != null){
+                    measureChild(view, widthSpec, heightSpec);
+                    int measuredWidth = View.MeasureSpec.getSize(widthSpec);
+                    int measuredHeight = view.getMeasuredHeight();
+                    setMeasuredDimension(measuredWidth, measuredHeight);
+                }
+            }
         }
 
         private List<News> getJsonData(String url) {
