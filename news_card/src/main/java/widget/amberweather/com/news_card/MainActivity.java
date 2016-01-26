@@ -7,7 +7,10 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
     private static String URL =
             "http://rss.gem.is/partner/amber.xml";
     private NewsAdapter mAdapter ;
+    private Button more_btn ;
+    private boolean haveData = false ;
+    private List<News> newsBeanList  ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,9 +45,23 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.id_recycle_view);
+        more_btn = (Button) findViewById(R.id.btn_more);
+        more_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (haveData){
+                    mAdapter.addData(3 , newsBeanList.get(3));
+                } else {
+                    Toast.makeText(getApplicationContext() , "没有数据" ,Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
     }
 
     private void initData() {
+        newsBeanList = new ArrayList<News>();
         new NewsAsyncTask().execute(URL);
     }
 
@@ -55,9 +75,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(List<News> newsBeanList) {
             super.onPostExecute(newsBeanList);
-
-            Log.e("newsBeanListSize" , newsBeanList.size()+"");
-            mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList , mRecyclerView);
+            haveData = true ;
+            mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList.subList(0, 3) , mRecyclerView);
             mRecyclerView.setAdapter(mAdapter);
             //设置布局管理
             LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.VERTICAL, false);
@@ -66,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         private List<News> getJsonData(String url) {
-            List<News> newsBeanList = new ArrayList<News>();
+
 
             try {
                 InputStream inputStream = new URL(url).
