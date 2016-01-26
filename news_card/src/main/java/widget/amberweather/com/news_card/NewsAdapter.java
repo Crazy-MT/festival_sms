@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.os.Message;
 import android.support.v4.view.NestedScrollingChild;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -94,6 +95,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.MyViewHolder> 
 
     public void addData(int pos , News news) {
         mDatas.add(pos, news);
+        Log.e("adddata" , news.getTitle());
         notifyItemInserted(pos);
     }
 

@@ -4,194 +4,38 @@
     <shared>
       <config />
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/news_card/src/main/res/drawable/text.xml">
-        <config>
-          <theme>@style/AppTheme</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="count" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05109548-58d2-4e37-9c09-100bdfb4b0cd" name="Default" comment="">
+    <list default="true" id="7cf3d9b0-bc71-432d-98ae-3a2947deaf61" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_card/build.gradle" afterPath="$PROJECT_DIR$/news_card/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_card/news_card.iml" afterPath="$PROJECT_DIR$/news_card/news_card.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/MainActivity.java" afterPath="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java" afterPath="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newslist/build.gradle" afterPath="$PROJECT_DIR$/newslist/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newslist/newslist.iml" afterPath="$PROJECT_DIR$/newslist/newslist.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" afterPath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/xml.iml" afterPath="$PROJECT_DIR$/xml/xml.iml" />
     </list>
     <ignored path="festival_sms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/design/23.0.0/jars/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/app/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/app/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/debug/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/pre-dexed/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/intermediates/tmp/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/beatplane/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/debug/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/exploded-aar/com.android.support/percent/23.0.0/jars/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/pre-dexed/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/camera/build/intermediates/tmp/" />
-    <ignored path="$PROJECT_DIR$/camera/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/camera/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/classes/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/debug/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/pre-dexed/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/intermediates/tmp/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/firework_anim/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/handler_demo/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/httptest/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/imageloader/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/listviewitemslidedeletebtnshow/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/debug/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/pre-dexed/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/intermediates/tmp/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/logger_demo/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/myqqview/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/debug/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/pre-dexed/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/intermediates/tmp/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/otto_demo/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/recycleviewtest/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/assets/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/classes/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/debug/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/dependency-cache/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/manifests/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/pre-dexed/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/widget/build/intermediates/tmp/" />
-    <ignored path="$PROJECT_DIR$/widget/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/widget/build/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,11 +61,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/java/com/maomao/recycleviewtest/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.142857">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news_card/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.857143">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newslist/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.857143">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recycleviewtest/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_news.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/item_news.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.677966">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+              <folding>
+                <element signature="e#266#299#0" expanded="true" />
+                <element signature="e#324#359#0" expanded="true" />
+                <element signature="e#385#420#0" expanded="true" />
+                <element signature="e#444#477#0" expanded="true" />
+                <element signature="e#864#1630#0" expanded="false" />
+                <element signature="e#1644#1841#0" expanded="false" />
+                <element signature="e#1855#2501#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,95 +149,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3073463">
-              <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-              <folding>
-                <element signature="e#1490#1841#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item_news.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/item_news.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8548387">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.564516">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-              <folding>
-                <element signature="e#586#1224#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/ImageLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
-              <folding>
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/ImageLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/java/com/maomao/recycleviewtest/SimpleAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-              <folding>
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/NewsAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.5509642">
+              <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -327,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -3094,7 +2927,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8720214637231" />
+        <entry key="$PROJECT_DIR$" value="8719722970093" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -4267,10 +4100,10 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/news_card" />
@@ -4358,10 +4191,10 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/newslist" />
@@ -4723,10 +4556,10 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/recycleviewtest" />
@@ -4996,11 +4829,11 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar" />
-                            <option value="D:/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                             <option value="$MODULE_DIR$/libs/okhttp-2.4.0-sources.jar" />
                           </list>
                         </option>
@@ -5165,8 +4998,6 @@
         <option value="$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/ImageLoader.java" />
         <option value="$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/MainActivity.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/newslist/build.gradle" />
-        <option value="$PROJECT_DIR$/news_card/build.gradle" />
         <option value="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsParser.java" />
         <option value="$PROJECT_DIR$/news_card/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/news_card/src/main/res/layout/item_news.xml" />
@@ -5174,8 +5005,10 @@
         <option value="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/PullNewsParser.java" />
         <option value="$PROJECT_DIR$/news_card/src/main/res/drawable/text.xml" />
         <option value="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/ImageLoader.java" />
-        <option value="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java" />
+        <option value="$PROJECT_DIR$/news_card/build.gradle" />
+        <option value="$PROJECT_DIR$/newslist/build.gradle" />
         <option value="$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java" />
         <option value="$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/MainActivity.java" />
       </list>
     </option>
@@ -5188,12 +5021,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -5218,7 +5051,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -5239,6 +5071,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -5286,76 +5119,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="recycleviewtest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -5370,63 +5133,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="recycleviewtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recycleviewtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="festival_sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recycleviewtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recycleviewtest" />
+              <option name="myItemId" value="newslist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5572,7 +5279,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5595,6 +5302,192 @@
       <recent name="F:\Android\AndroidStudioProject\festival_sms\xml\libs" />
       <recent name="F:\Android\Android Studio Project\festival_sms\transition_drawable\src\main\res\drawable" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/gradle.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/okhttp_2_4_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/local.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/settings.gradle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/MainActivity.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/PullBookParser.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/news.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/xml/src/main/res/layout/activity_main.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/xml/xml.iml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/build.gradle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/news_card.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/proguard-rules.pro</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/androidTest/java/widget/amberweather/com/news_card/ApplicationTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/AndroidManifest.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/ImageLoader.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/MainActivity.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/News.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsParser.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/PullNewsParser.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/layout/item_news.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/mipmap-hdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/mipmap-mdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/mipmap-xhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/mipmap-xxhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/mipmap-xxxhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/values-w820dp/dimens.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/values/colors.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/values/dimens.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/values/strings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/main/res/values/styles.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/news_card/src/test/java/widget/amberweather/com/news_card/ExampleUnitTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/build.gradle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/newslist.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/proguard-rules.pro</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/androidTest/java/com/example/newslist/ApplicationTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/AndroidManifest.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/ImageLoader.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/MainActivity.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/NewsAdapter.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/NewsBean.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/drawable-hdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/drawable-mdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/drawable-xhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/drawable-xxhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/layout/activity_main.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/layout/item_layout.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/menu/main.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/mipmap-hdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/mipmap-mdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/mipmap-xhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/mipmap-xxhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/mipmap-xxxhdpi/ic_launcher.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values-v11/styles.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values-v14/styles.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values-w820dp/dimens.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values/colors.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values/dimens.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values/strings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/main/res/values/styles.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/newslist/src/test/java/com/example/newslist/ExampleUnitTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Android Application.news_card">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -6481,36 +6374,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22408026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.191453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5060698" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734446" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61538464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -6531,286 +6424,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/SimpleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/java/com/maomao/recycleviewtest/SimpleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/UrlAdress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/res/layout/item_single_textview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.451613">
-          <caret line="12" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/res/layout/item_particle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.532258">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listviewitemslidedeletebtnshow/src/main/java/com/example/infolife/listviewitemslidedeletebtnshow/QQListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.218894">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6624424">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/UrlAdress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.874424">
-          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/Bean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/SimpleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7753456">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47235024">
-          <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/Sdk/sources/android-23/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.236014">
-          <caret line="179" column="22" selection-start-line="179" selection-start-column="22" selection-end-line="179" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;class#AsyncTask#0" expanded="false" />
-            <element signature="class#9056:9279" expanded="false" />
-            <element signature="method#newThread#0;class#9056:9279" expanded="false" />
-            <element signature="docComment;field#THREAD_POOL_EXECUTOR#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;field#SERIAL_EXECUTOR#0;class#AsyncTask#0" expanded="false" />
-            <element signature="class#SerialExecutor#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#execute#0;class#SerialExecutor#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#scheduleNext#0;class#SerialExecutor#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;class#Status#0;class#AsyncTask#0" expanded="false" />
-            <element signature="class#Status#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;field#PENDING#0;class#Status#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;field#RUNNING#0;class#Status#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;field#FINISHED#0;class#Status#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#getHandler#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#setDefaultExecutor#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#AsyncTask#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#AsyncTask#0;class#AsyncTask#0" expanded="false" />
-            <element signature="class#12651:13251" expanded="false" />
-            <element signature="method#done#0;class#12651:13251" expanded="false" />
-            <element signature="method#postResultIfNotInvoked#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#postResult#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#getStatus#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#doInBackground#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#onPreExecute#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#onPreExecute#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#onPostExecute#0;class#AsyncTask#0" expanded="false" />
-            <element signature="e#15152#15192#0" expanded="false" />
-            <element signature="e#15152#15192#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#onProgressUpdate#0;class#AsyncTask#0" expanded="false" />
-            <element signature="e#15561#15601#0" expanded="false" />
-            <element signature="e#15561#15601#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#onCancelled#0;class#AsyncTask#0" expanded="false" />
-            <element signature="e#16247#16286#0" expanded="false" />
-            <element signature="e#16247#16286#0" expanded="false" />
-            <element signature="docComment;method#onCancelled#1;class#AsyncTask#0" expanded="false" />
-            <element signature="method#onCancelled#1;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#isCancelled#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#cancel#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#cancel#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#get#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#get#1;class#AsyncTask#0" expanded="false" />
-            <element signature="method#get#1;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#execute#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#execute#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#executeOnExecutor#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#executeOnExecutor#0;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#execute#1;class#AsyncTask#0" expanded="false" />
-            <element signature="docComment;method#publishProgress#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#publishProgress#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#finish#0;class#AsyncTask#0" expanded="false" />
-            <element signature="class#InternalHandler#0;class#AsyncTask#0" expanded="false" />
-            <element signature="e#26090#26151#0" expanded="false" />
-            <element signature="e#26090#26151#0" expanded="false" />
-            <element signature="method#handleMessage#0;class#InternalHandler#0;class#AsyncTask#0" expanded="false" />
-            <element signature="class#WorkerRunnable#0;class#AsyncTask#0" expanded="false" />
-            <element signature="class#AsyncTaskResult#0;class#AsyncTask#0" expanded="false" />
-            <element signature="method#AsyncTaskResult#0;class#AsyncTaskResult#0;class#AsyncTask#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/Sdk/sources/android-23/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0961537">
-          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
-          <folding>
-            <element signature="e#6599#6600#0" expanded="false" />
-            <element signature="e#6642#6643#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.483871">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/handler_demo/src/main/java/com/maomao/handler/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/News.java">
+    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#402#403#0" expanded="false" />
-            <element signature="e#444#445#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-          </folding>
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/NewsParser.java">
+    <entry file="file://$PROJECT_DIR$/particlenews/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/PullBookParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6818,183 +6451,371 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Android/Sdk/sources/android-23/android/widget/TextView.java">
+    <entry file="file://$PROJECT_DIR$/xml/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6287554">
-          <caret line="251" column="38" selection-start-line="251" selection-start-column="38" selection-end-line="251" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/listviewitemslidedeletebtnshow/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.951613">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="47" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/src/main/res/layout/item_layout.xml">
+    <entry file="file://$PROJECT_DIR$/logger_demo/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39851484">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myqqview/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otto_demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particlenews/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recycleviewtest/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="25" selection-end-column="56" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.142858">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/java/com/maomao/recycleviewtest/StaggeredAdapter.java">
+    <entry file="file://$PROJECT_DIR$/transition_drawable/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.875">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/percentdemo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beatplane/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handler_demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httptest/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageloader/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listviewitemslidedeletebtnshow/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger_demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myqqview/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otto_demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transition_drawable/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.678571">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listviewitemslidedeletebtnshow/src/main/java/com/example/infolife/listviewitemslidedeletebtnshow/QQListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.107913665">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.40678">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handler_demo/src/main/java/com/maomao/handler/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particlenews/src/main/java/com/maomao/particlenews/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particlenews/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23952095">
           <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/News.java">
+    <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/NewsParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.49586776">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsParser.java">
+    <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/news.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1453818590220" expanded="true" signature="25:64" placeholder="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/PullNewsParser.java">
+    <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/PullBookParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-          <folding />
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <marker date="1453818590216" expanded="true" signature="32:192" placeholder="..." />
+            <marker date="1453818590216" expanded="true" signature="194:233" placeholder="/**...*/" />
+            <marker date="1453818590216" expanded="true" signature="371:2236" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml/src/main/java/com/maomao/xml/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="55" selection-start-line="132" selection-start-column="55" selection-end-line="132" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/Sdk/sources/android-23/android/graphics/BitmapFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1480687">
-          <caret line="595" column="25" selection-start-line="595" selection-start-column="25" selection-end-line="595" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/NewsAdapter.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+        <state vertical-scroll-proportion="-7.142857">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newslist/src/main/java/com/example/newslist/ImageLoader.java">
+    <entry file="file://$PROJECT_DIR$/news_card/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.857143">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newslist/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.857143">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recycleviewtest/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/item_news.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.677966">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#266#299#0" expanded="true" />
+            <element signature="e#324#359#0" expanded="true" />
+            <element signature="e#385#420#0" expanded="true" />
+            <element signature="e#444#477#0" expanded="true" />
+            <element signature="e#864#1630#0" expanded="false" />
+            <element signature="e#1644#1841#0" expanded="false" />
+            <element signature="e#1855#2501#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/ImageLoader.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/Sdk/sources/android-23/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33261803">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/java/com/maomao/recycleviewtest/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recycleviewtest/src/main/java/com/maomao/recycleviewtest/SimpleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.33126935">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -7002,43 +6823,16 @@
     <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/NewsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.564516">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#586#1224#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_card/src/main/res/layout/item_news.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8548387">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news_card/src/main/java/widget/amberweather/com/news_card/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3073463">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding>
-            <element signature="e#1490#1841#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.5509642">
+          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>

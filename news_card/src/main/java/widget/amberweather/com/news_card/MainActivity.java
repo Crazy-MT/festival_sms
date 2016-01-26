@@ -51,7 +51,30 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (haveData){
-                    mAdapter.addData(3 , newsBeanList.get(3));
+/*
+
+                    News newsOne = newsBeanList.get(3);
+                    News newsTwo = newsBeanList.get(4);
+                    News newsThree = newsBeanList.get(5);
+                    mAdapter.addData(3 , newsOne);
+                    mAdapter.addData(4 , newsTwo);
+                    mAdapter.addData(5 , newsThree);
+*/
+
+
+                    int count = mRecyclerView.getChildCount() ;
+                    News news0 = newsBeanList.get(count+0);
+                    News news1 = newsBeanList.get(count+1);
+                    News news2 = newsBeanList.get(count+2);
+                    mAdapter.addData(count+0 , news0);
+                    mAdapter.addData(count+1 , news1);
+                    mAdapter.addData(count+2 , news2);
+
+                    /*Log.e("count" , count + "");
+                    for ( int i = 0 ; i < 3 ; i++){
+                        mAdapter.addData(count+i , news);
+                        Log.e("count + j" , newsBeanList.get(count+i).getTitle());
+                    }*/
                 } else {
                     Toast.makeText(getApplicationContext() , "没有数据" ,Toast.LENGTH_SHORT).show();
                 }
@@ -76,13 +99,15 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(List<News> newsBeanList) {
             super.onPostExecute(newsBeanList);
-            haveData = true ;
-            mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList.subList(0, 3) , mRecyclerView);
-            mRecyclerView.setAdapter(mAdapter);
-            //设置布局管理
-            MyLayoutManager linearLayoutManager = new MyLayoutManager(MainActivity.this );
-            mRecyclerView.setLayoutManager(linearLayoutManager);
-            mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+            if (newsBeanList!=null){
+                haveData = true ;
+                mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList.subList(0, 3) , mRecyclerView);
+                mRecyclerView.setAdapter(mAdapter);
+                //设置布局管理
+                MyLayoutManager linearLayoutManager = new MyLayoutManager(MainActivity.this );
+                mRecyclerView.setLayoutManager(linearLayoutManager);
+                mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+            }
         }
 
         public class MyLayoutManager extends LinearLayoutManager {
@@ -99,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 if(view != null){
                     measureChild(view, widthSpec, heightSpec);
                     int measuredWidth = View.MeasureSpec.getSize(widthSpec);
-                    int measuredHeight = view.getMeasuredHeight();
+                    int measuredHeight = view.getMeasuredHeight() * getItemCount();
                     setMeasuredDimension(measuredWidth, measuredHeight);
                 }
             }
