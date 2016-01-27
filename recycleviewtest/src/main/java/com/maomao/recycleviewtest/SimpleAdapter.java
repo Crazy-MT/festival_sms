@@ -76,8 +76,8 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.MyViewHold
         return mDatas.size();
     }
 
-    public void addData(int pos) {
-        mDatas.add(pos, "Insert One");
+    public void addData(int pos , String data) {
+        mDatas.add(pos, data);
         notifyItemInserted(pos);
     }
 

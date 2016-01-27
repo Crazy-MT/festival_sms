@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private static String URL =
             "http://rss.gem.is/partner/amber.xml";
-    private NewsAdapter mAdapter ;
-    private Button more_btn ;
-    private boolean haveData = false ;
-    private List<News> newsBeanList  ;
+    private NewsAdapter mAdapter;
+    private Button more_btn;
+    private boolean haveData = false;
+    private List<News> newsBeanList;
+    private List<News> newsBeanListCopy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         more_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (haveData){
+                if (haveData) {
 /*
 
                     News newsOne = newsBeanList.get(3);
@@ -61,15 +62,19 @@ public class MainActivity extends AppCompatActivity {
                     mAdapter.addData(5 , newsThree);
 */
 
+                    Log.e("count", newsBeanListCopy.size() + "");
 
-                    int count = mRecyclerView.getChildCount() ;
-                    Log.e("count" , count + "");
-                    for ( int i = 0 ; i < 3 ; i++){
-                        mAdapter.addData(count+i , newsBeanList.get(count+i));
-                        Log.e("count + j" , newsBeanList.size()+"");
+                    int count = mRecyclerView.getChildCount();
+                    if (count < newsBeanListCopy.size()) {
+                        for (int i = 0; i < 3; i++) {
+                            mAdapter.addData(count + i, newsBeanListCopy.get(count + i));
+
+                        }
                     }
+
+                    mRecyclerView.smoothScrollToPosition(mRecyclerView.getChildCount());
                 } else {
-                    Toast.makeText(getApplicationContext() , "没有数据" ,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "没有数据", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -92,12 +97,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(List<News> newsBeanList) {
             super.onPostExecute(newsBeanList);
-            if (newsBeanList.size()!=0){
-                haveData = true ;
-                mAdapter = new NewsAdapter(MainActivity.this ,newsBeanList.subList(0, 3) , mRecyclerView);
+            if (newsBeanList.size() != 0) {
+                haveData = true;
+                mAdapter = new NewsAdapter(MainActivity.this, newsBeanList.subList(0, 3), mRecyclerView);
                 mRecyclerView.setAdapter(mAdapter);
                 //设置布局管理
-                MyLayoutManager linearLayoutManager = new MyLayoutManager(MainActivity.this );
+                MyLayoutManager linearLayoutManager = new MyLayoutManager(MainActivity.this);
                 mRecyclerView.setLayoutManager(linearLayoutManager);
                 mRecyclerView.setItemAnimator(new DefaultItemAnimator());
             }
@@ -114,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onMeasure(RecyclerView.Recycler recycler, RecyclerView.State state, int widthSpec, int heightSpec) {
                 View view = recycler.getViewForPosition(0);
-                if(view != null){
+                if (view != null) {
                     measureChild(view, widthSpec, heightSpec);
                     int measuredWidth = View.MeasureSpec.getSize(widthSpec);
                     int measuredHeight = view.getMeasuredHeight() * getItemCount();
@@ -132,7 +137,10 @@ public class MainActivity extends AppCompatActivity {
                 NewsParser parser = new PullNewsParser();
                 try {
                     newsBeanList = parser.parser(inputStream);
-                    Log.e("newsBeanListSize" , newsBeanList.size()+"");
+                    newsBeanListCopy = new ArrayList<News>();
+                    for (News news : newsBeanList) {
+                        newsBeanListCopy.add(news);
+                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
