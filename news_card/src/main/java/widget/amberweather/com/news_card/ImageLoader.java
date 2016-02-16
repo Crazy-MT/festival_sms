@@ -103,20 +103,6 @@ public class ImageLoader {
                 }
                 bitmap = decodeSampledBitmapFromInputStream(copyiInputStream1,copyiInputStream2 , 60, 100);
 
-                /*ByteArrayOutputStream out = new ByteArrayOutputStream();
-                copy(is,out);
-                is2 = new ByteArrayInputStream(out.toByteArray());
-
-                BitmapFactory.Options options = new BitmapFactory.Options();
-                options.inJustDecodeBounds = true;
-                bitmap = BitmapFactory.decodeStream(is , null , options);*/
-                /*// 调用上面定义的方法计算inSampleSize值
-                options.inSampleSize = calculateInSampleSize(options, 60, 100);
-                // 使用获取到的inSampleSize值再次解析图片
-                options.inJustDecodeBounds = false;
-                bitmap = BitmapFactory.decodeStream(is2 , null , options);
-               // Log.e("is" , is.toString());
-                //bitmap = BitmapFactory.decodeByteArray(bytes , 0 ,bytes.length , options);*/
                 connection.disconnect();
                 return bitmap;
             } catch (IOException e) {
@@ -184,7 +170,8 @@ public class ImageLoader {
             //计算缩放比例
             inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
         }
-        return inSampleSize;
+        return 1;
+       // return inSampleSize;
     }
 
     public void showImageByAsyncTask(ImageView imageView, String url) {

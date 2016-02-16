@@ -95,8 +95,9 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.MyViewHolder> 
 
     public void addData(int pos , News news) {
         mDatas.add(pos, news);
-        Log.e("adddata" , news.getTitle());
         notifyItemInserted(pos);
+
+
     }
 
     public void deleteDate(int pos) {

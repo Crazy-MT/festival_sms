@@ -8,6 +8,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -80,7 +81,18 @@ public class MainActivity extends AppCompatActivity {
         switch (id) {
             case R.id.action_add:
 
-                mAdapter.addData(1);
+
+
+                mAdapter.addData(1 , mDatas.get(1));
+
+                mAdapter.addData(2 , mDatas.get(2));
+
+                mAdapter.addData(3 , mDatas.get(3));
+
+                for (String data : mDatas){
+                    Log.e("data" ,data);
+                }
+
                 // mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
                 break;
             case R.id.action_delete:
