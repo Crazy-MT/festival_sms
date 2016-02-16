@@ -2,39 +2,81 @@
 <items version="2" >
 
     <item
-        jar="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\pre-dexed\debug\classes-8c5add09e97493b898e37c27fff38ca6cb4fe185.jar" />
-    </item>
-    <item
-        jar="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-6ef72b6dcd73046d122aa70bad1d814d8ff610f1.jar" />
-    </item>
-    <item
-        jar="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\pre-dexed\debug\classes-5a1c2dbec2a9b768ca0bb7dc7d7b5c102b4a49bf.jar" />
-    </item>
-    <item
-        jar="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jar="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\pre-dexed\debug\classes-45b730ddd954298cf2af5c2e344ae1451714f254.jar" />
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\pre-dexed\debug\classes-6cef585591ae0e7d88360f9536ba38c5723eef42.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-041e93b34759b110fb05ca7caa08158ffb43495c.jar" />
     </item>
     <item
         jar="C:\Users\Mao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="F:\Android\AndroidStudioProject\festival_sms\news_card\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-fc31b1308c01369429c42b4ee0e871ec9f4364ee.jar" />
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-fc31b1308c01369429c42b4ee0e871ec9f4364ee.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-931b2e240b636d461eeeafe4506390c4610d6cac.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-d71afc1d7e91206d9fe838ca7f8e23cffbc03e01.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-01576b143edec79e5bf0bc70c9b74ed96893336d.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\pre-dexed\debug\classes-efadc90ff67ae1566ced5cec25df2ed16ca2e3b5.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recycleviewtest\build\intermediates\pre-dexed\debug\classes-a36e34c5b836f09e8436e1468584a6911d48ca5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-e58e4fa42fca15415d6ec1a4155a901d4c6f6c2d.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-d6de9337f105803f4c95e6b6b3bd1251fadf963e.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-820b4f979116882bfd543a3479bbc4ccf14f775b.jar" />
     </item>
 
 </items>

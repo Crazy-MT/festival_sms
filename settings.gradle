@@ -1,11 +1,13 @@
 //include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane', ':otto_demo', ':otto_demo', ':firework_anim', ':handler_demo', ':transition_drawable', ':particlenews',
 //include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':exitactivity'
 /*include ':listviewitemslidedeletebtnshow'
-include ':widget', ':newslist', ':news_card'
+include ':widget', ':newslist', ':news_card', ':recyclerviewdemo'
 include ':logger_demo'
 include ':demo'*/
+/*
 
 include ':xml'
-include ':newslist'
+include ':newslist'*/
 include ':recycleviewtest'
-include ':news_card'
+//include ':news_card'
+//include ':recyclerviewdemo'

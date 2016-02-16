@@ -8,19 +8,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/news_card" />
-            <option value="$PROJECT_DIR$/newslist" />
             <option value="$PROJECT_DIR$/recycleviewtest" />
-            <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/news_card" />
-            <option value="$PROJECT_DIR$/newslist" />
             <option value="$PROJECT_DIR$/recycleviewtest" />
-            <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
       </GradleProjectSettings>

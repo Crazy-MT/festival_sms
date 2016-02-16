@@ -2,9 +2,10 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#44ff0000"
+    android:background="@drawable/item_click"
     android:layout_margin="3dp"
-    android:layout_height="72dp" >
+    android:layout_height="72dp"
+    >
 
     <TextView
         android:id="@+id/id_tv"

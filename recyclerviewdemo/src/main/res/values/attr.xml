@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaterialLayout">
+        <attr name="alpha_material_layout" format="integer" />
+        <attr name="alpha_step_material_layout" format="integer" />
+        <attr name="frame_rate_material_layout" format="integer" />
+        <attr name="duration_material_layout" format="integer" />
+        <attr name="color_material_layout" format="color" />
+        <attr name="scale_material_layout" format="float" />
+    </declare-styleable>
+
+</resources>

@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         initDatas();
         initViews();
         mAdapter = new com.maomao.recycleviewtest.SimpleAdapter(this, mDatas);
+        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+
         mRecyclerView.setAdapter(mAdapter);
 
         mAdapter.setOnItemClickListener(new SimpleAdapter.OnItemClickListener() {
@@ -48,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         //设置布局管理
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         mRecyclerView.setLayoutManager(linearLayoutManager);
-        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         //设置item分隔线
         //mRecyclerView.addItemDecoration(new DividerItemDecoration(this , DividerItemDecoration.VERTICAL_LIST));
     }

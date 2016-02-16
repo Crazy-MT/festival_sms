@@ -89,7 +89,6 @@ public class NewsAdapter extends BaseAdapter implements OnScrollListener{
 	public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
 		mStart = firstVisibleItem;
 		mEnd = firstVisibleItem + visibleItemCount;
-		//第一次加载的时候调用
 		if (mFirstIn && visibleItemCount > 0)
 		{
 			mImageLoader.loadImages(mStart, mEnd);
@@ -101,10 +100,8 @@ public class NewsAdapter extends BaseAdapter implements OnScrollListener{
 	public void onScrollStateChanged(AbsListView view, int scrollState) {
 		if (scrollState == SCROLL_STATE_IDLE)
 		{
-			// 加载可见项
 			mImageLoader.loadImages(mStart, mEnd);
 		} else {
-			// 停止任务
 			mImageLoader.cancelAllTast();
 		}
 	}
