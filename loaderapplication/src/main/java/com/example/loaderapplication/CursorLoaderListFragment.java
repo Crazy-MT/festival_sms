@@ -44,7 +44,7 @@ public class CursorLoaderListFragment extends ListFragment
         // 创建一个空的adapter，我们将用它显示加载后的数据
         mAdapter = new SimpleCursorAdapter(getActivity(),
                 android.R.layout.simple_list_item_2, null,
-                new String[] { Contacts.DISPLAY_NAME, Contacts.CONTACT_STATUS_ICON },
+                new String[] { Contacts.DISPLAY_NAME, Contacts.PHOTO_ID},
                 new int[] { android.R.id.text1, android.R.id.text2 }, 0);
         setListAdapter(mAdapter);
 

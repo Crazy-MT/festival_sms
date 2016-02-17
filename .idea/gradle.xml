@@ -9,17 +9,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/city_location" />
             <option value="$PROJECT_DIR$/loaderapplication" />
-            <option value="$PROJECT_DIR$/recyclerviewdemo" />
-            <option value="$PROJECT_DIR$/recycleviewtest" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/city_location" />
             <option value="$PROJECT_DIR$/loaderapplication" />
-            <option value="$PROJECT_DIR$/recyclerviewdemo" />
-            <option value="$PROJECT_DIR$/recycleviewtest" />
           </set>
         </option>
       </GradleProjectSettings>
