@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         mCityBeanList = new ArrayList<>();
         new CityIdAsyncTask().execute(CITY_ID_URL,"Kyiv");
-        new CityIdAsyncTask().execute(CITY_ID_URL,"New Delhi");
+        new CityIdAsyncTask().execute(CITY_ID_URL,"NewDelhi");
     }
 
     private void initView() {
