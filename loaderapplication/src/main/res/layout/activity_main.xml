@@ -7,17 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.maomao.recycleviewtest.MainActivity">
+    tools:context="com.example.loaderapplication.MainActivity">
 
-    <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/id_srl"
+    <fragment
+        android:id="@+id/id_fragment_contact"
+        android:name="com.example.loaderapplication.CursorLoaderListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/id_recycleview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </fragment>
 </RelativeLayout>
