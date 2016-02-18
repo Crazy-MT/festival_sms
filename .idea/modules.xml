@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/city_location/city_location.iml" filepath="$PROJECT_DIR$/city_location/city_location.iml" />
       <module fileurl="file://$PROJECT_DIR$/festival_sms.iml" filepath="$PROJECT_DIR$/festival_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" filepath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,8 @@
 package com.maomao.recycleviewtest;
 
 import android.content.Intent;
+import android.net.Uri;
+import android.os.Environment;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +18,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -97,8 +101,6 @@ public class MainActivity extends AppCompatActivity {
         switch (id) {
             case R.id.action_add:
 
-
-
                 mAdapter.addData(1 , mDatas.get(1));
 
                 mAdapter.addData(2 , mDatas.get(2));
@@ -112,8 +114,9 @@ public class MainActivity extends AppCompatActivity {
                 // mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
                 break;
             case R.id.action_delete:
-                mAdapter.deleteDate(1);
-                // mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
+                //mAdapter.deleteDate(1);
+                //mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
+                shareText();
                 break;
 
             case R.id.action_gridview:
@@ -136,5 +139,25 @@ public class MainActivity extends AppCompatActivity {
 
 
         return super.onOptionsItemSelected(item);
+    }
+
+    //分享文字
+    public void shareText() {
+
+        File sdCardDir = Environment.getExternalStorageDirectory();
+        File targetFile = null;
+        try {
+            targetFile = new File(sdCardDir.getCanonicalFile(), "AmberWeatherCity.docx");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Intent shareIntent = new Intent();
+        shareIntent.setAction(Intent.ACTION_SEND);
+        shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(targetFile));
+        shareIntent.setType("*/*");
+
+        //设置分享列表的标题，并且每次都显示分享列表
+        startActivity(Intent.createChooser(shareIntent, "分享到"));
     }
 }
