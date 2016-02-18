@@ -11,5 +11,5 @@ include ':demo'*/
 //include ':recycleviewtest'
 ////include ':news_card'
 //include ':recyclerviewdemo'
-include ':loaderapplication'
+//include ':loaderapplication'
 include ':city_location'

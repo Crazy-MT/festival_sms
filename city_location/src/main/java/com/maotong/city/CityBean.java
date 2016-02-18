@@ -1,5 +1,7 @@
 package com.maotong.city;
 
+import java.util.Comparator;
+
 /**
  * Created by Mao on 2016/2/17.
  */
@@ -56,4 +58,6 @@ public class CityBean {
     public String toString() {
         return "city id:" + cityId + " city name:" + cityName + " lat" + cityLat + " lon" + cityLon + " time zone" + cityTimeZone;
     }
+
+
 }

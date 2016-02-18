@@ -15,38 +15,34 @@ import java.util.List;
 public class PullCityBeanParser implements NewsParser {
     @Override
     public CityBean parser(InputStream inputStream) throws Exception {
-        List<CityBean> cityBeanList = null ;
-        CityBean cityBean = null ;
+         CityBean cityBean = null ;
         XmlPullParser parser = Xml.newPullParser();
         parser.setInput(inputStream,"UTF-8");
         int eventType = parser.getEventType();
         while (eventType != XmlPullParser.END_DOCUMENT){
             switch (eventType){
                 case XmlPullParser.START_DOCUMENT:
-                    cityBeanList = new ArrayList<CityBean>();
-
-                    Log.e("MT" , "START_DOCUMENT");
                     break;
                 case XmlPullParser.START_TAG:
                     if (parser.getName().equals("local")){
                         cityBean = new CityBean() ;
-                        Log.e("MT" , "local");
+                        //Log.e("MT" , "local");
                     } else if (parser.getName().equals("lat")){
                         eventType = parser.next();
-                        Log.e("MT" , "lat");
+                        //Log.e("MT" , "lat");
                         cityBean.setCityLat(parser.getText());
                     } else if (parser.getName().equals("lon")){
                         eventType = parser.next();
-                        Log.e("MT" , "lon");
+                        //Log.e("MT" , "lon");
                         cityBean.setCityLon(parser.getText());
                     } else if (parser.getName().equals("timeZone")){
                         eventType = parser.next();
                         cityBean.setCityTimeZone(parser.getText());
+                        Log.e("MT" , parser.getText());
                     }
                     break;
                 case XmlPullParser.END_TAG:
                     if (parser.getName().equals("local")){
-                        cityBeanList.add(cityBean);
                         //cityBean = null ;
                     }
                     break;
