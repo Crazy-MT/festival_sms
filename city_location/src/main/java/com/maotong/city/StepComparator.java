@@ -26,7 +26,7 @@ public class StepComparator implements Comparator<CityBean> {
         }else{
             float lhsTimeZone = Float.valueOf(lhs.getCityTimeZone());
             float rhsTimeZone = Float.valueOf(rhs.getCityTimeZone());
-            return lhsTimeZone < rhsTimeZone ? 1 : -1;
+            return lhsTimeZone > rhsTimeZone ? 1 : -1;
         }
     }
 }

@@ -1,10 +1,13 @@
 package com.maotong.city;
 
+import android.text.TextUtils;
 import android.util.Log;
 import android.util.Xml;
 
 import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,35 +17,74 @@ import java.util.List;
  */
 public class PullCityIdParser implements NewsParser {
     @Override
-    public CityBean parser(InputStream inputStream) throws Exception {
+    public CityBean parser(InputStream inputStream)  {
 
-        CityBean cityBean = null ;
+        CityBean cityBean = null;
         XmlPullParser parser = Xml.newPullParser();
-        parser.setInput(inputStream,"UTF-8");
-        int eventType = parser.getEventType();
-        while (eventType != XmlPullParser.END_DOCUMENT){
+        try {
+            parser.setInput(inputStream, "UTF-8");
 
-            switch (eventType){
+        } catch (XmlPullParserException e) {
+            Log.e("MT",e.toString());
+            e.printStackTrace();
+        }
+        int eventType = 0;
+        try {
+            eventType = parser.getEventType();
+        } catch (XmlPullParserException e) {
+            Log.e("MT",e.toString());
+            e.printStackTrace();
+        }
+        while (eventType != XmlPullParser.END_DOCUMENT) {
+
+            switch (eventType) {
                 case XmlPullParser.START_DOCUMENT:
-                    //Log.e("MT" , "START_DOCUMENT");
+                    Log.e("MT", "START_DOCUMENT");
                     break;
                 case XmlPullParser.START_TAG:
 
-                    //Log.e("MT" , "START_TAG");
-                    if (parser.getName().equals("citylist")){
-                        cityBean = new CityBean() ;
-                        //Log.e("MT" , "citylist");
-                    } else if (parser.getName().equals("location")){
-                        eventType = parser.next();
-                        cityBean.setCityId(parser.getAttributeValue(null,"location"));
-                        //Log.e("MT" , cityBean.getCityId());
+                    Log.e("MT", "START_TAG");
+                    if (parser.getName().equals("citylist")) {
+                        cityBean = new CityBean();
+                        Log.e("MT", "citylist");
+                    } else if (parser.getName().equals("location")) {
+                        try {
+                            eventType = parser.next();
+                        } catch (XmlPullParserException e) {
+                            e.printStackTrace();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        cityBean.setCityId(parser.getAttributeValue(null, "location"));
+                        Log.e("MT", "location");
                     }
                     break;
                 case XmlPullParser.END_TAG:
-                    //Log.e("MT" , "END_TAG");
+                    Log.e("MT", "END_TAG");
                     break;
             }
-            eventType = parser.next();
+            /*if (cityBean == null){
+                eventType = parser.next();
+
+            }else {
+                Log.e("MT", "citybean null");
+                if (!TextUtils.isEmpty(cityBean.getCityId())) {
+                    eventType = XmlPullParser.END_DOCUMENT;
+                }else{
+                    eventType = parser.next();
+                }
+            }*/
+
+
+            try {
+                eventType = parser.next();
+            } catch (XmlPullParserException e) {
+                Log.e("MT",e.toString());
+                e.printStackTrace();
+            } catch (IOException e) {
+                Log.e("MT", e.toString());
+                e.printStackTrace();
+            }
         }
         return cityBean;
     }
