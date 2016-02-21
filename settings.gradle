@@ -5,12 +5,12 @@ include ':widget', ':newslist', ':news_card', ':recyclerviewdemo', ':loaderappli
 include ':logger_demo'
 include ':demo'*/
 /*
-
-//include ':xml'
-//include ':newslist'*/
-include ':recycleviewtest'
-////include ':news_card'
-//include ':recyclerviewdemo'
-//include ':loaderapplication'
-include ':city_location'
-include ':myapplication'
+//
+////include ':xml'
+////include ':newslist'*/
+//include ':recycleviewtest'
+//////include ':news_card'
+////include ':recyclerviewdemo'
+////include ':loaderapplication'
+//include ':city_location'
+//include ':myapplication'
