@@ -8,9 +8,9 @@ include ':demo'*/
 //
 ////include ':xml'
 ////include ':newslist'*/
-include ':recycleviewtest'
+//include ':recycleviewtest'
 //////include ':news_card'
 include ':recyclerviewdemo'
 ////include ':loaderapplication'
-//include ':city_location'
-include ':myapplication'
+include ':city_location'
+//include ':myapplication'

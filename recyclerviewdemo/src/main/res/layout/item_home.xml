@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.maomao.recyclerviewdemo.view.MaterialLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ml="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/tools"
-    ml:alpha_material_layout="200"
-    ml:scale_material_layout="1.2"
-    ml:duration_material_layout="200"
-    ml:color_material_layout="#FFD306">
+    xmlns:app="http://schemas.android.com/tools">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -30,4 +25,4 @@
 
 
 
-</com.maomao.recyclerviewdemo.view.MaterialLayout>
+</RelativeLayout>

@@ -42,6 +42,8 @@ public class CityBeanListToJson {
         }
 
         this.timeZoneArray = list.toArray(new String[list.size()]);
+
+        //Log.e(TAG,"time" + this.timeZoneArray.toString());
     }
 
     public String getJson() {
