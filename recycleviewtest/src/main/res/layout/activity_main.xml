@@ -13,8 +13,8 @@
         android:id="@+id/id_srl"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <android.support.v7.widget.RecyclerView
+<!--android.support.v7.widget.RecyclerView-->
+        <com.maomao.recycleviewtest.MyRecyclerView
             android:id="@+id/id_recycleview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

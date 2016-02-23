@@ -6,8 +6,8 @@ include ':logger_demo'
 include ':demo'*/
 /*
 //
-////include ':xml'
-////include ':newslist'*/
+////include ':xml'*/
+include ':newslist'
 include ':recycleviewtest'
 //////include ':news_card'
 include ':recyclerviewdemo'

@@ -25,7 +25,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView mRecyclerView;
+    private MyRecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout ;
 
     private List<String> mDatas;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        mRecyclerView = (RecyclerView) findViewById(R.id.id_recycleview);
+        mRecyclerView = (MyRecyclerView) findViewById(R.id.id_recycleview);
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.id_srl);
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -114,9 +114,9 @@ public class MainActivity extends AppCompatActivity {
                 // mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
                 break;
             case R.id.action_delete:
-                //mAdapter.deleteDate(1);
-                //mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
-                shareText();
+                mAdapter.deleteDate(1);
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
+                //shareText();
                 break;
 
             case R.id.action_gridview:
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.action_hor_gridview:
 
-                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.HORIZONTAL));
                 break;
             case R.id.action_staggered:
                 Intent intent = new Intent(this, StaggeredGridLayoutActivity.class);

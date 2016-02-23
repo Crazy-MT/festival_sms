@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.newslist.MainActivity" >
 
-    <ListView
+    <com.example.newslist.MyListView
         android:id="@+id/lv_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

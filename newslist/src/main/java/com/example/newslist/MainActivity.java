@@ -20,7 +20,7 @@ import android.widget.ListView;
 
 public class MainActivity extends Activity {
 	
-	private ListView mListView;
+	private MyListView mListView;
 	private static String URL = 
 			"http://www.imooc.com/api/teacher?type=4&num=30";
 	
@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		mListView = (ListView) findViewById(R.id.lv_main);
+		mListView = (MyListView) findViewById(R.id.lv_main);
 		new NewsAsyncTask().execute(URL);
 	}
 	

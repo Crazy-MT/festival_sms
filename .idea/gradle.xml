@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/newslist" />
             <option value="$PROJECT_DIR$/recyclerviewdemo" />
             <option value="$PROJECT_DIR$/recycleviewtest" />
           </set>
@@ -18,6 +19,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/newslist" />
             <option value="$PROJECT_DIR$/recyclerviewdemo" />
             <option value="$PROJECT_DIR$/recycleviewtest" />
           </set>
