@@ -1,7 +1,9 @@
 package com.maomao.recycleviewtest;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -16,6 +18,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import java.io.File;
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private List<String> mDatas;
     private SimpleAdapter mAdapter;
 
+    @TargetApi(Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,8 +60,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //设置布局管理
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        MyRecyclerView linearLayoutManager = new MyRecyclerView(getApplicationContext());
         mRecyclerView.setLayoutManager(linearLayoutManager);
+        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+                //Log.e("MT" , newState + "");
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                Log.e("MT" , dx  +  "  " + dy + "  ") ;
+            }
+        });
         //设置item分隔线
         //mRecyclerView.addItemDecoration(new DividerItemDecoration(this , DividerItemDecoration.VERTICAL_LIST));
     }
@@ -114,9 +131,9 @@ public class MainActivity extends AppCompatActivity {
                 // mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
                 break;
             case R.id.action_delete:
-                //mAdapter.deleteDate(1);
-                //mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
-                shareText();
+                mAdapter.deleteDate(1);
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
+                //shareText();
                 break;
 
             case R.id.action_gridview:
@@ -128,8 +145,7 @@ public class MainActivity extends AppCompatActivity {
                 mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
                 break;
             case R.id.action_hor_gridview:
-
-                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.HORIZONTAL));
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.HORIZONTAL));
                 break;
             case R.id.action_staggered:
                 Intent intent = new Intent(this, StaggeredGridLayoutActivity.class);
@@ -160,4 +176,7 @@ public class MainActivity extends AppCompatActivity {
         //设置分享列表的标题，并且每次都显示分享列表
         startActivity(Intent.createChooser(shareIntent, "分享到"));
     }
+
+
+
 }
