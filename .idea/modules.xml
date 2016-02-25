@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/city_location/city_location.iml" filepath="$PROJECT_DIR$/city_location/city_location.iml" />
       <module fileurl="file://$PROJECT_DIR$/festival_sms.iml" filepath="$PROJECT_DIR$/festival_sms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" filepath="$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newslist/newslist.iml" filepath="$PROJECT_DIR$/newslist/newslist.iml" />
     </modules>
   </component>
 </project>

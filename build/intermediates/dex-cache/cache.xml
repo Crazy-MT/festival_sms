@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-182220e4a8c90f57fe3cc4d2b565ef0fbc5293a6.jar" />
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-7a13c9777a15dec9aa9747abedf945d2795a2b6a.jar" />
     </item>
     <item
-        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-d7db1a9d2bb12c6d03e98a594c02c32bd5422a47.jar" />
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-87689f4b7af9c31906eb5e8c7c593a39de4ee754.jar" />
     </item>
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-bcc6f54d83ebc44d14aa12684c76e78059235b35.jar" />
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-9bf64b860e4b0a5950da02663205b50ba18efb06.jar" />
     </item>
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-75d1543d6c62852b458f203e6a255b5fe232bb38.jar" />
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-28ea49b77f363c7d59d06ef8aead2236e52bb08f.jar" />
     </item>
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\recyclerviewdemo\build\intermediates\pre-dexed\debug\classes-4fabe9f1354e3623860143e132702d504a64c15e.jar" />
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-ea20284556122a875d0ae59f12b9d87b01ba5b2e.jar" />
     </item>
 
 </items>
