@@ -63,19 +63,31 @@ public class PullCityIdParser implements NewsParser {
                     Log.e("MT", "END_TAG");
                     break;
             }
-            /*if (cityBean == null){
-                eventType = parser.next();
+            if (cityBean == null){
+                try {
+                    eventType = parser.next();
+                } catch (XmlPullParserException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
             }else {
                 Log.e("MT", "citybean null");
                 if (!TextUtils.isEmpty(cityBean.getCityId())) {
                     eventType = XmlPullParser.END_DOCUMENT;
                 }else{
-                    eventType = parser.next();
+                    try {
+                        eventType = parser.next();
+                    } catch (XmlPullParserException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
-            }*/
+            }
 
-
+/*
             try {
                 eventType = parser.next();
             } catch (XmlPullParserException e) {
@@ -84,7 +96,7 @@ public class PullCityIdParser implements NewsParser {
             } catch (IOException e) {
                 Log.e("MT", e.toString());
                 e.printStackTrace();
-            }
+            }*/
         }
         return cityBean;
     }
