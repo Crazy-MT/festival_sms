@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\pre-dexed\debug\classes-aa60c59d7030f8dda4b3df8756906599a19d1046.jar" />
-    </item>
-    <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\pre-dexed\debug\classes-2b6aaa38c60fca1852aec6d4562f25d37c9079e1.jar" />
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-7a13c9777a15dec9aa9747abedf945d2795a2b6a.jar" />
     </item>
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-10678438936c6a4e58fcf1f89331a8a6444a5873.jar" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-87689f4b7af9c31906eb5e8c7c593a39de4ee754.jar" />
+    </item>
+    <item
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-9bf64b860e4b0a5950da02663205b50ba18efb06.jar" />
     </item>
     <item
         jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-28ea49b77f363c7d59d06ef8aead2236e52bb08f.jar" />
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-28ea49b77f363c7d59d06ef8aead2236e52bb08f.jar" />
     </item>
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\news_card\build\intermediates\pre-dexed\debug\classes-9bc6ab58bb87e2c7b73f48d271634591b8e1c9ae.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-ea20284556122a875d0ae59f12b9d87b01ba5b2e.jar" />
     </item>
 
 </items>

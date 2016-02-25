@@ -160,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
         public CityBeanAsyncTask(CityBean cityBean) {
             this.cityBean = cityBean;
+
             Log.e(TAG,this.cityBean.toString());
             if (EMPTY.equals(cityBean.getCityId())) {
                 this.cityBean.setCityTimeZone("-13");

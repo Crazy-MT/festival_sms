@@ -10,18 +10,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/city_location" />
-            <option value="$PROJECT_DIR$/news_card" />
-            <option value="$PROJECT_DIR$/recyclerviewdemo" />
-            <option value="$PROJECT_DIR$/recycleviewtest" />
+            <option value="$PROJECT_DIR$/newslist" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/city_location" />
-            <option value="$PROJECT_DIR$/news_card" />
-            <option value="$PROJECT_DIR$/recyclerviewdemo" />
-            <option value="$PROJECT_DIR$/recycleviewtest" />
+            <option value="$PROJECT_DIR$/newslist" />
           </set>
         </option>
       </GradleProjectSettings>

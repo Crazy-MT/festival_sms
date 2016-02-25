@@ -7,10 +7,12 @@ include ':demo'*/
 /*
 //
 ////include ':xml'
-////include ':newslist'*/
 include ':recycleviewtest'
-include ':news_card'
+//include ':news_card'
 include ':recyclerviewdemo'
 ////include ':loaderapplication'
-include ':city_location'
+
 //include ':myapplication'
+*/
+include ':newslist'
+include ':city_location'
