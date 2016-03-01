@@ -1,10 +1,9 @@
 //include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':camera', ':beatplane', ':beatplane', ':otto_demo', ':otto_demo', ':firework_anim', ':handler_demo', ':transition_drawable', ':particlenews',
 //include ':app', ':recycleviewtest', ':httptest', ':imageloader', ':myqqview', ':percentdemo', ':exitactivity'
 /*include ':listviewitemslidedeletebtnshow'
-include ':widget', ':newslist', ':news_card', ':recyclerviewdemo', ':loaderapplication', ':citylocationapplication', ':citylocation', ':citylocation', ':myapplication', ':myapplication', ':city_location', ':myapplication', ':share', ':share2', ':share', ':share', ':share', ':myapplication'
+include ':widget', ':newslist', ':news_card', ':recyclerviewdemo', ':loaderapplication', ':citylocationapplication', ':citylocation', ':citylocation', ':myapplication', ':myapplication', ':city_location', ':myapplication', ':share', ':share2', ':share', ':share', ':share', ':myapplication', ':ballfollowfinget'
 include ':logger_demo'
-include ':demo'*/
-/*
+
 //
 ////include ':xml'
 include ':recycleviewtest'
@@ -16,3 +15,5 @@ include ':recyclerviewdemo'
 */
 include ':newslist'
 include ':city_location'
+include ':demo'
+include ':ballfollowfinget'

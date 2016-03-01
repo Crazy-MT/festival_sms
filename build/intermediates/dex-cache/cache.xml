@@ -2,39 +2,46 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-7a13c9777a15dec9aa9747abedf945d2795a2b6a.jar" />
-    </item>
-    <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-87689f4b7af9c31906eb5e8c7c593a39de4ee754.jar" />
-    </item>
-    <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\classes-9bf64b860e4b0a5950da02663205b50ba18efb06.jar" />
-    </item>
-    <item
-        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-28ea49b77f363c7d59d06ef8aead2236e52bb08f.jar" />
-    </item>
-    <item
-        jar="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="D:\Users\MaoTong\Documents\GitHub\festival_sms\newslist\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-ea20284556122a875d0ae59f12b9d87b01ba5b2e.jar" />
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-ba7b5a1e621e17fdb4edbe43101b87239902ac64.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\pre-dexed\debug\classes-5925e58ee0212f6301392f5aeeed9bdf03f5993b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-fc31b1308c01369429c42b4ee0e871ec9f4364ee.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\pre-dexed\debug\classes-c116dc7727f662fa24ccb9e32bbf5828bb0f21a2.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\pre-dexed\debug\classes-79a5f104166fd33fcbd28513477a3ebbb7ffdf9c.jar" />
+    </item>
+    <item
+        jar="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\Android\AndroidStudioProject\festival_sms\ballfollowfinget\build\intermediates\pre-dexed\debug\classes-2c9296a6bad04f0053df1aa194693e26d3b6ded6.jar" />
     </item>
 
 </items>
