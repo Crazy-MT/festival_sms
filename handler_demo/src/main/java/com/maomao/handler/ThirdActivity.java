@@ -15,20 +15,17 @@ import android.widget.TextView;
  */
 public class ThirdActivity extends AppCompatActivity{
 
-    private TextView text ;
-    private HandlerThread thread ;
-    private Handler handler ;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        text = new TextView(this) ;
+        TextView text = new TextView(this) ;
         text.setText("handler Thread");
         setContentView(text);
 
-        thread = new HandlerThread("handler Thread");
+        HandlerThread thread = new HandlerThread("handler Thread");
         thread.start();
 
-        handler = new Handler(thread.getLooper()){
+        Handler handler = new Handler(thread.getLooper()){
             @Override
             public void handleMessage(Message msg) {
                 Log.e("handler Thread" , msg.toString());

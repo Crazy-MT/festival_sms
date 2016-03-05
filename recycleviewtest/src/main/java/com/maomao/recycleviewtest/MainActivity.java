@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         initDatas();
         initViews();
-        mAdapter = new com.maomao.recycleviewtest.SimpleAdapter(this, mDatas);
+        mAdapter = new SimpleAdapter(this, mDatas);
+        mRecyclerView = (RecyclerView) findViewById(R.id.id_recycleview);
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
         mRecyclerView.setAdapter(mAdapter);

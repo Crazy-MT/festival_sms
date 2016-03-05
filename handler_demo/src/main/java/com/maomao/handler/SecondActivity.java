@@ -16,12 +16,6 @@ import android.widget.TextView;
  */
 public class SecondActivity extends AppCompatActivity{
 
-    private Handler myHandler = new Handler(){
-        @Override
-        public void handleMessage(Message msg) {
-
-        }
-    };
 
     private MyThread myThread ;
     @Override

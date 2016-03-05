@@ -28,12 +28,12 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.MyViewHold
     private OnItemClickListener mOnItemClickListener;
 
     public void setOnItemClickListener(OnItemClickListener listener) {
-        this.mOnItemClickListener = listener;
+        mOnItemClickListener = listener;
     }
 
     public SimpleAdapter(Context context, List<String> datas) {
-        this.mContext = context;
-        this.mDatas = datas;
+        mContext = context;
+        mDatas = datas;
         mInfalter = LayoutInflater.from(context);
     }
 
