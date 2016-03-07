@@ -21,9 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/news_card/news_card.iml" filepath="$PROJECT_DIR$/news_card/news_card.iml" />
       <module fileurl="file://$PROJECT_DIR$/otto_demo/otto_demo.iml" filepath="$PROJECT_DIR$/otto_demo/otto_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/percent_layout_demo/percent_layout_demo.iml" filepath="$PROJECT_DIR$/percent_layout_demo/percent_layout_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qq_view/qq_view.iml" filepath="$PROJECT_DIR$/qq_view/qq_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerview_demo/recyclerview_demo.iml" filepath="$PROJECT_DIR$/recyclerview_demo/recyclerview_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" filepath="$PROJECT_DIR$/recycleviewtest/recycleviewtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/transition_drawable/transition_drawable.iml" filepath="$PROJECT_DIR$/transition_drawable/transition_drawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml/xml.iml" filepath="$PROJECT_DIR$/xml/xml.iml" />

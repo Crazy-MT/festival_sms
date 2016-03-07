@@ -15,7 +15,6 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ListView;
 
 public class MainActivity extends Activity {
@@ -37,14 +36,13 @@ public class MainActivity extends Activity {
 
 		@Override
 		protected List<NewsBean> doInBackground(String... params) {
-			return getJosnData(params[0]);
+			return getJsonData(params[0]);
 		}
 		
 		@Override
-		protected void onPostExecute(List<NewsBean> newsbean) {
-			// TODO Auto-generated method stub
-			super.onPostExecute(newsbean);
-			NewsAdapter adapter = new NewsAdapter(newsbean, MainActivity.this, mListView);
+		protected void onPostExecute(List<NewsBean> newsBean) {
+			super.onPostExecute(newsBean);
+			NewsAdapter adapter = new NewsAdapter(newsBean, MainActivity.this, mListView);
 			mListView.setAdapter(adapter);
 		}
 
@@ -67,7 +65,7 @@ public class MainActivity extends Activity {
 			return result;
 		}
 
-		private List<NewsBean> getJosnData(String url) {
+		private List<NewsBean> getJsonData(String url) {
 			List<NewsBean> newsBeanList = new ArrayList<NewsBean>();
 			try {
 				String jsonString = readString(new URL(url).

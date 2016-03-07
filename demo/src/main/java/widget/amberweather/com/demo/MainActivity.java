@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawCircle(60, 20, 10, p);// 小圆
         p.setAntiAlias(true);// 设置画笔的锯齿效果。 true是去除，大家一看效果就明白了
         canvas.drawCircle(120, 20, 20, p);// 大圆
-        Log.e("can" , bitmap.toString());
 
         return bitmap;
     }

@@ -14,7 +14,7 @@ import android.widget.PopupWindow;
 public class QQListView extends ListView
 {
 
-	private static final String TAG = "QQlistView";
+	private static final String TAG = "QQListView";
 
 	// private static final int VELOCITY_SANP = 200;
 	// private VelocityTracker mVelocityTracker;

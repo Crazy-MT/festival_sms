@@ -52,31 +52,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (haveData) {
-/*
-
-                    News newsOne = newsBeanList.get(3);
-                    News newsTwo = newsBeanList.get(4);
-                    News newsThree = newsBeanList.get(5);
-                    mAdapter.addData(3 , newsOne);
-                    mAdapter.addData(4 , newsTwo);
-                    mAdapter.addData(5 , newsThree);
-*/
-
-                    Log.e("count", newsBeanListCopy.size() + "");
-
                     int count = mRecyclerView.getChildCount();
                     if (count < newsBeanListCopy.size()) {
                         for (int i = 0; i < 3; i++) {
                             mAdapter.addData(count + i, newsBeanListCopy.get(count + i));
-
                         }
                     }
-
                     mRecyclerView.smoothScrollToPosition(mRecyclerView.getChildCount());
                 } else {
                     Toast.makeText(getApplicationContext(), "没有数据", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
 

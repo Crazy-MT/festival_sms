@@ -153,12 +153,6 @@ public class TimerService extends Service  {
 		manager.updateAppWidget(cn, rv);
 	}
 
-	public static int getMinute(Date date) {
-		Calendar calendar = Calendar.getInstance();
-		calendar.setTime(date);
-		return calendar.get(Calendar.MINUTE);
-	}
-
 	@Override
 	public void onDestroy() {
 		// TODO Auto-generated method stub

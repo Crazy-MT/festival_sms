@@ -6,41 +6,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.newslist.MainActivity" >
+    tools:context="com.example.newslist.MainActivity">
 
 
     <com.example.newslist.ListView3d
         android:id="@+id/lv_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:dividerHeight="-20dp"
-        />
+        android:dividerHeight="-20dp" />
 
-    <com.example.newslist.HorizontalListView
-        android:id="@+id/lv_main_horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:dividerHeight="-20dp"
-        android:visibility="gone"/>
-    <HorizontalScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="wrap_content"
-        android:layout_height="78dip"
-        android:layout_weight="0.10" >
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-    <com.example.newslist.MyGridView
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:id="@+id/gridview"
-        android:columnWidth="200dp"
-        android:numColumns="auto_fit"
-        android:stretchMode="columnWidth"
-        android:gravity="center"
-        ></com.example.newslist.MyGridView>
-    </LinearLayout>
-    </HorizontalScrollView>
 </RelativeLayout>
