@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.8" />
+        <option name="gradleHome" value="F:\Software\Android\android-studio-ide-143.2664576-windows\android-studio\gradle\gradle-2.10" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/handler_demo" />
             <option value="$PROJECT_DIR$/http_demo" />
             <option value="$PROJECT_DIR$/image_loader" />
+            <option value="$PROJECT_DIR$/imageviewdemo" />
             <option value="$PROJECT_DIR$/imooc_list" />
             <option value="$PROJECT_DIR$/listview_slide_delete" />
             <option value="$PROJECT_DIR$/loader" />
@@ -27,7 +28,6 @@
             <option value="$PROJECT_DIR$/news_card" />
             <option value="$PROJECT_DIR$/otto_demo" />
             <option value="$PROJECT_DIR$/percent_layout_demo" />
-            <option value="$PROJECT_DIR$/recyclerview_demo" />
             <option value="$PROJECT_DIR$/transition_drawable" />
             <option value="$PROJECT_DIR$/widget" />
             <option value="$PROJECT_DIR$/xml" />
@@ -47,6 +47,7 @@
             <option value="$PROJECT_DIR$/handler_demo" />
             <option value="$PROJECT_DIR$/http_demo" />
             <option value="$PROJECT_DIR$/image_loader" />
+            <option value="$PROJECT_DIR$/imageviewdemo" />
             <option value="$PROJECT_DIR$/imooc_list" />
             <option value="$PROJECT_DIR$/listview_slide_delete" />
             <option value="$PROJECT_DIR$/loader" />
@@ -54,7 +55,6 @@
             <option value="$PROJECT_DIR$/news_card" />
             <option value="$PROJECT_DIR$/otto_demo" />
             <option value="$PROJECT_DIR$/percent_layout_demo" />
-            <option value="$PROJECT_DIR$/recyclerview_demo" />
             <option value="$PROJECT_DIR$/transition_drawable" />
             <option value="$PROJECT_DIR$/widget" />
             <option value="$PROJECT_DIR$/xml" />

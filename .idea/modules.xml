@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/handler_demo/handler_demo.iml" filepath="$PROJECT_DIR$/handler_demo/handler_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/http_demo/http_demo.iml" filepath="$PROJECT_DIR$/http_demo/http_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_loader/image_loader.iml" filepath="$PROJECT_DIR$/image_loader/image_loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageviewdemo/imageviewdemo.iml" filepath="$PROJECT_DIR$/imageviewdemo/imageviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc_list/imooc_list.iml" filepath="$PROJECT_DIR$/imooc_list/imooc_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview_slide_delete/listview_slide_delete.iml" filepath="$PROJECT_DIR$/listview_slide_delete/listview_slide_delete.iml" />
       <module fileurl="file://$PROJECT_DIR$/loader/loader.iml" filepath="$PROJECT_DIR$/loader/loader.iml" />
@@ -21,7 +22,6 @@
       <module fileurl="file://$PROJECT_DIR$/news_card/news_card.iml" filepath="$PROJECT_DIR$/news_card/news_card.iml" />
       <module fileurl="file://$PROJECT_DIR$/otto_demo/otto_demo.iml" filepath="$PROJECT_DIR$/otto_demo/otto_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/percent_layout_demo/percent_layout_demo.iml" filepath="$PROJECT_DIR$/percent_layout_demo/percent_layout_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recyclerview_demo/recyclerview_demo.iml" filepath="$PROJECT_DIR$/recyclerview_demo/recyclerview_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/transition_drawable/transition_drawable.iml" filepath="$PROJECT_DIR$/transition_drawable/transition_drawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml/xml.iml" filepath="$PROJECT_DIR$/xml/xml.iml" />
