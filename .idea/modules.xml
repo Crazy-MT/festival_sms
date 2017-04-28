@@ -3,28 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/back_key/back_key.iml" filepath="$PROJECT_DIR$/back_key/back_key.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ball_follow_finger/ball_follow_finger.iml" filepath="$PROJECT_DIR$/ball_follow_finger/ball_follow_finger.iml" />
       <module fileurl="file://$PROJECT_DIR$/beat_plane/beat_plane.iml" filepath="$PROJECT_DIR$/beat_plane/beat_plane.iml" />
-      <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/city_location/city_location.iml" filepath="$PROJECT_DIR$/city_location/city_location.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/festival_sms.iml" filepath="$PROJECT_DIR$/festival_sms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/firework_anim/firework_anim.iml" filepath="$PROJECT_DIR$/firework_anim/firework_anim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/handler_demo/handler_demo.iml" filepath="$PROJECT_DIR$/handler_demo/handler_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/http_demo/http_demo.iml" filepath="$PROJECT_DIR$/http_demo/http_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/image_loader/image_loader.iml" filepath="$PROJECT_DIR$/image_loader/image_loader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/imageviewdemo/imageviewdemo.iml" filepath="$PROJECT_DIR$/imageviewdemo/imageviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc_list/imooc_list.iml" filepath="$PROJECT_DIR$/imooc_list/imooc_list.iml" />
-      <module fileurl="file://$PROJECT_DIR$/listview_slide_delete/listview_slide_delete.iml" filepath="$PROJECT_DIR$/listview_slide_delete/listview_slide_delete.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loader/loader.iml" filepath="$PROJECT_DIR$/loader/loader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logger_demo/logger_demo.iml" filepath="$PROJECT_DIR$/logger_demo/logger_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/news_card/news_card.iml" filepath="$PROJECT_DIR$/news_card/news_card.iml" />
-      <module fileurl="file://$PROJECT_DIR$/otto_demo/otto_demo.iml" filepath="$PROJECT_DIR$/otto_demo/otto_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/percent_layout_demo/percent_layout_demo.iml" filepath="$PROJECT_DIR$/percent_layout_demo/percent_layout_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transition_drawable/transition_drawable.iml" filepath="$PROJECT_DIR$/transition_drawable/transition_drawable.iml" />
       <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xml/xml.iml" filepath="$PROJECT_DIR$/xml/xml.iml" />
     </modules>
   </component>
 </project>

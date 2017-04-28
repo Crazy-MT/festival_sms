@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">City Location Application</string>
-    <string name="action_settings">Share</string>
-    <string name="action_json">share json</string>
-    <string name="action_json_city">share json and city</string>
-
-
-</resources>

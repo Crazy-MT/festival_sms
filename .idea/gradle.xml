@@ -10,56 +10,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/back_key" />
-            <option value="$PROJECT_DIR$/ball_follow_finger" />
             <option value="$PROJECT_DIR$/beat_plane" />
-            <option value="$PROJECT_DIR$/camera" />
-            <option value="$PROJECT_DIR$/city_location" />
-            <option value="$PROJECT_DIR$/demo" />
-            <option value="$PROJECT_DIR$/firework_anim" />
-            <option value="$PROJECT_DIR$/handler_demo" />
-            <option value="$PROJECT_DIR$/http_demo" />
-            <option value="$PROJECT_DIR$/image_loader" />
-            <option value="$PROJECT_DIR$/imageviewdemo" />
             <option value="$PROJECT_DIR$/imooc_list" />
-            <option value="$PROJECT_DIR$/listview_slide_delete" />
-            <option value="$PROJECT_DIR$/loader" />
-            <option value="$PROJECT_DIR$/logger_demo" />
-            <option value="$PROJECT_DIR$/news_card" />
-            <option value="$PROJECT_DIR$/otto_demo" />
-            <option value="$PROJECT_DIR$/percent_layout_demo" />
-            <option value="$PROJECT_DIR$/transition_drawable" />
             <option value="$PROJECT_DIR$/widget" />
-            <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/back_key" />
-            <option value="$PROJECT_DIR$/ball_follow_finger" />
-            <option value="$PROJECT_DIR$/beat_plane" />
-            <option value="$PROJECT_DIR$/camera" />
-            <option value="$PROJECT_DIR$/city_location" />
-            <option value="$PROJECT_DIR$/demo" />
-            <option value="$PROJECT_DIR$/firework_anim" />
-            <option value="$PROJECT_DIR$/handler_demo" />
-            <option value="$PROJECT_DIR$/http_demo" />
-            <option value="$PROJECT_DIR$/image_loader" />
-            <option value="$PROJECT_DIR$/imageviewdemo" />
-            <option value="$PROJECT_DIR$/imooc_list" />
-            <option value="$PROJECT_DIR$/listview_slide_delete" />
-            <option value="$PROJECT_DIR$/loader" />
-            <option value="$PROJECT_DIR$/logger_demo" />
-            <option value="$PROJECT_DIR$/news_card" />
-            <option value="$PROJECT_DIR$/otto_demo" />
-            <option value="$PROJECT_DIR$/percent_layout_demo" />
-            <option value="$PROJECT_DIR$/transition_drawable" />
-            <option value="$PROJECT_DIR$/widget" />
-            <option value="$PROJECT_DIR$/xml" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
